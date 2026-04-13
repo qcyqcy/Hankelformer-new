@@ -1,0 +1,99 @@
+window_size:1, contrastive_weight:0.0001, learning_rate:5e-05, pred_len:4  
+mse:66.11763000488281, mae:3.7151529788970947
+
+window_size:1, contrastive_weight:0.0001, learning_rate:0.0001, pred_len:4  
+mse:65.84673309326172, mae:3.7036352157592773
+
+window_size:1, contrastive_weight:0.0001, learning_rate:0.0003, pred_len:4  
+mse:65.22183990478516, mae:3.71933650970459
+
+window_size:1, contrastive_weight:0.0001, learning_rate:0.0005, pred_len:4  
+mse:65.52103424072266, mae:3.755615234375
+
+window_size:1, contrastive_weight:0.0001, learning_rate:0.001, pred_len:4  
+mse:65.51786041259766, mae:3.7879114151000977
+
+window_size:1, contrastive_weight:0.0001, learning_rate:5e-05, pred_len:4  
+mse:66.11763000488281, mae:3.7151529788970947
+
+window_size:1, contrastive_weight:0.0001, learning_rate:0.0001, pred_len:4  
+mse:65.84673309326172, mae:3.7036352157592773
+
+window_size:1, contrastive_weight:0.0001, learning_rate:0.0003, pred_len:4  
+mse:65.22183990478516, mae:3.71933650970459
+
+window_size:1, contrastive_weight:0.0001, learning_rate:5e-05, pred_len:4  
+mse:66.11763000488281, mae:3.7151529788970947
+
+window_size:1, contrastive_weight:0.0001, learning_rate:0.0001, pred_len:4  
+mse:65.84673309326172, mae:3.7036352157592773
+
+window_size:1, contrastive_weight:0.0001, learning_rate:0.0003, pred_len:4  
+mse:65.22183990478516, mae:3.71933650970459
+
+window_size:1, contrastive_weight:0.0001, learning_rate:0.0005, pred_len:4  
+mse:65.52103424072266, mae:3.755615234375
+
+window_size:1, contrastive_weight:0.0001, learning_rate:0.001, pred_len:4  
+mse:65.51786041259766, mae:3.7879114151000977
+
+window_size:1, contrastive_weight:0.0005, learning_rate:5e-05, pred_len:4  
+mse:66.11197662353516, mae:3.713829278945923
+
+window_size:1, contrastive_weight:0.0005, learning_rate:0.0001, pred_len:4  
+mse:65.82564544677734, mae:3.701817750930786
+
+window_size:1, contrastive_weight:0.0005, learning_rate:0.0003, pred_len:4  
+mse:65.032958984375, mae:3.7188456058502197
+
+window_size:1, contrastive_weight:0.0005, learning_rate:0.0005, pred_len:4  
+mse:65.48368072509766, mae:3.7539100646972656
+
+window_size:1, contrastive_weight:0.0005, learning_rate:0.001, pred_len:4  
+mse:65.80461120605469, mae:3.7986292839050293
+
+window_size:1, contrastive_weight:0.001, learning_rate:5e-05, pred_len:4  
+mse:66.09416961669922, mae:3.7120749950408936
+
+window_size:1, contrastive_weight:0.001, learning_rate:0.0001, pred_len:4  
+mse:65.7744369506836, mae:3.700295925140381
+
+window_size:1, contrastive_weight:0.001, learning_rate:0.0003, pred_len:4  
+mse:64.8644027709961, mae:3.7227351665496826
+
+window_size:1, contrastive_weight:0.001, learning_rate:0.0005, pred_len:4  
+mse:65.16556549072266, mae:3.7526819705963135
+
+window_size:1, contrastive_weight:0.001, learning_rate:0.001, pred_len:4  
+mse:65.99658203125, mae:3.798652172088623
+
+window_size:1, contrastive_weight:0.005, learning_rate:5e-05, pred_len:4  
+mse:65.76611328125, mae:3.709033250808716
+
+window_size:1, contrastive_weight:0.005, learning_rate:0.0001, pred_len:4  
+mse:65.33290100097656, mae:3.712634563446045
+
+window_size:1, contrastive_weight:0.005, learning_rate:0.0003, pred_len:4  
+mse:64.66558074951172, mae:3.7449886798858643
+
+window_size:1, contrastive_weight:0.005, learning_rate:0.0005, pred_len:4  
+mse:64.75260162353516, mae:3.7900044918060303
+
+window_size:1, contrastive_weight:0.005, learning_rate:0.001, pred_len:4  
+mse:65.94148254394531, mae:3.798384189605713
+
+window_size:1, contrastive_weight:0.01, learning_rate:5e-05, pred_len:4  
+mse:65.39534759521484, mae:3.725541353225708
+
+window_size:1, contrastive_weight:0.01, learning_rate:0.0001, pred_len:4  
+mse:65.08950805664062, mae:3.727097988128662
+
+window_size:1, contrastive_weight:0.01, learning_rate:0.0003, pred_len:4  
+mse:64.72327423095703, mae:3.755842685699463
+
+window_size:1, contrastive_weight:0.01, learning_rate:0.0005, pred_len:4  
+mse:64.89508056640625, mae:3.8124423027038574
+
+window_size:1, contrastive_weight:0.01, learning_rate:0.001, pred_len:4  
+mse:65.5391616821289, mae:3.7751238346099854
+

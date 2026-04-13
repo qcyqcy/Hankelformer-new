@@ -1,0 +1,63 @@
+window_size:1, contrastive_weight:0.0001, learning_rate:5e-05, pred_len:12  
+mse:1.2764233350753784, mae:0.3176708221435547
+
+window_size:1, contrastive_weight:0.0001, learning_rate:0.0001, pred_len:12  
+mse:1.2643868923187256, mae:0.30797749757766724
+
+window_size:1, contrastive_weight:0.0001, learning_rate:0.0001, pred_len:12  
+mse:1.487630009651184, mae:0.31757256388664246
+
+window_size:1, contrastive_weight:0.0001, learning_rate:0.0003, pred_len:12  
+mse:1.442160964012146, mae:0.3114965856075287
+
+window_size:1, contrastive_weight:0.0001, learning_rate:0.0005, pred_len:12  
+mse:1.4985874891281128, mae:0.3135536313056946
+
+window_size:1, contrastive_weight:0.0001, learning_rate:0.001, pred_len:12  
+mse:1.565868616104126, mae:0.316005140542984
+
+window_size:1, contrastive_weight:0.0005, learning_rate:5e-05, pred_len:12  
+mse:1.443839192390442, mae:0.3248803913593292
+
+window_size:1, contrastive_weight:0.0005, learning_rate:0.0001, pred_len:12  
+mse:1.4633790254592896, mae:0.3170563876628876
+
+window_size:1, contrastive_weight:0.0005, learning_rate:0.0003, pred_len:12  
+mse:1.4305492639541626, mae:0.31334102153778076
+
+window_size:1, contrastive_weight:0.0005, learning_rate:0.0005, pred_len:12  
+mse:1.5053081512451172, mae:0.3135554790496826
+
+window_size:1, contrastive_weight:0.0005, learning_rate:0.001, pred_len:12  
+mse:1.6470239162445068, mae:0.3180425465106964
+
+window_size:1, contrastive_weight:0.001, learning_rate:5e-05, pred_len:12  
+mse:1.4367376565933228, mae:0.3256504237651825
+
+window_size:1, contrastive_weight:0.001, learning_rate:0.0001, pred_len:12  
+mse:1.450918436050415, mae:0.31716039776802063
+
+window_size:1, contrastive_weight:0.001, learning_rate:0.0003, pred_len:12  
+mse:1.43707275390625, mae:0.3153407573699951
+
+window_size:1, contrastive_weight:0.001, learning_rate:0.0005, pred_len:12  
+mse:1.5395466089248657, mae:0.31849855184555054
+
+window_size:1, contrastive_weight:0.001, learning_rate:0.001, pred_len:12  
+mse:1.6305384635925293, mae:0.3176329433917999
+
+window_size:1, contrastive_weight:0.005, learning_rate:5e-05, pred_len:12  
+mse:1.4188226461410522, mae:0.32453420758247375
+
+window_size:1, contrastive_weight:0.005, learning_rate:0.0001, pred_len:12  
+mse:1.4597861766815186, mae:0.3206936717033386
+
+window_size:1, contrastive_weight:0.005, learning_rate:0.0003, pred_len:12  
+mse:1.4086732864379883, mae:0.3120974600315094
+
+window_size:1, contrastive_weight:0.005, learning_rate:0.0005, pred_len:12  
+mse:1.415677547454834, mae:0.3138009309768677
+
+window_size:1, contrastive_weight:0.005, learning_rate:0.001, pred_len:12  
+mse:1.4538096189498901, mae:0.3200995624065399
+

@@ -1,0 +1,21 @@
+{
+    "dataset": "Traffic",
+    "model_name": "Hankelformer",
+    "run_path": "./run.py",
+    "root_path": "./dataset/traffic/",
+    "data_path": "traffic.csv",
+    "data_name": "custom",
+    "enc_in": "862",
+    "target": "OT",
+    "pred_lens": [96,192,336,720],
+    "n_trials": 50,
+    "train_epochs": "30",
+    "search_space": {
+        "window_sizes": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,18,20,22,24],
+        "contrastive_weights": [0.03,0.05,0.07],
+        "learning_rates": [0.001],
+        "e_layers": [4],
+        "d_models": [512],
+        "d_ffs": [512]
+    }
+}

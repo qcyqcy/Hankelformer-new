@@ -1,0 +1,21 @@
+{
+    "dataset": "Zhengzhou",
+    "model_name": "Hankelformer",
+    "run_path": "/share/home/qinchengyang/Time-Series-Library/run.py",
+    "root_path": "/share/home/qinchengyang/Time-Series-Library/dataset/ZZ-precipitation/",
+    "data_path": "zhengzhou_hourly_weather_precipitation_2016_2021_complete.csv",
+    "data_name": "Zhengzhou",
+    "enc_in": "23",
+    "target": "OT",
+    "pred_lens": [24],
+    "n_trials": 100,
+    "train_epochs": "20",
+    "search_space": {
+        "window_sizes": [1,2,3,4,5,6,7,8,9,10,11,12],
+        "contrastive_weight_range": [0.0001, 0.05],
+        "learning_rate_range": [0.00005, 0.001],
+        "e_layers": [2,3,4],
+        "d_models": [256,512],
+        "d_ffs": [256,512]
+    }
+}

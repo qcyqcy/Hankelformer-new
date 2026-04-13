@@ -1,0 +1,3 @@
+ABLATION_full - window_size:10, contrastive_weight:0.01, learning_rate:0.0003, pred_len:48, data:Texas_Freeze  
+mse:0.4994724690914154, mae:0.5332993268966675
+

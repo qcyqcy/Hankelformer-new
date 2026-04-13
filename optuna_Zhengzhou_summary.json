@@ -1,0 +1,13 @@
+{
+  "12": {
+    "best_value": 1.2328693866729736,
+    "best_params": {
+      "window_size": 1,
+      "contrastive_weight": 0.0006328884918912692,
+      "learning_rate": 0.00017941631666346366,
+      "e_layers": 2,
+      "d_model": 256,
+      "d_ff": 512
+    }
+  }
+}

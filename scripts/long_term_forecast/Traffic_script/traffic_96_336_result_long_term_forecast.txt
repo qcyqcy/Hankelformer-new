@@ -1,0 +1,96 @@
+long_term_forecast_traffic_96_336_WPMixer_custom_ftM_sl96_ll0_pl336_dm32_nh8_el2_dl1_df2048_expand2_dc4_fc1_ebtimeF_dtTrue_test_0  
+mse:0.5099518299102783, mae:0.3281962275505066, dtw:Not calculated
+
+window_size:1, contrastive_weight:0.05, learning_rate:0.001, pred_len:336  
+mse:0.5118304491043091, mae:0.3420912027359009
+
+window_size:2, contrastive_weight:0.05, learning_rate:0.001, pred_len:336  
+mse:0.5134748816490173, mae:0.30504298210144043
+
+window_size:2, contrastive_weight:0.07, learning_rate:0.001, pred_len:336  
+mse:0.5176507830619812, mae:0.3360981047153473
+
+window_size:3, contrastive_weight:0.05, learning_rate:0.001, pred_len:336  
+mse:0.4529484808444977, mae:0.2866559624671936
+
+window_size:3, contrastive_weight:0.07, learning_rate:0.001, pred_len:336  
+mse:0.448168009519577, mae:0.28781238198280334
+
+window_size:3, contrastive_weight:0.1, learning_rate:0.001, pred_len:336  
+mse:0.44283416867256165, mae:0.2913154363632202
+
+window_size:4, contrastive_weight:0.05, learning_rate:0.001, pred_len:336  
+mse:0.5054078698158264, mae:0.35518601536750793
+
+window_size:4, contrastive_weight:0.07, learning_rate:0.001, pred_len:336  
+mse:0.509858250617981, mae:0.300477534532547
+
+window_size:5, contrastive_weight:0.05, learning_rate:0.001, pred_len:336  
+mse:0.4404279291629791, mae:0.2856542468070984
+
+window_size:5, contrastive_weight:0.07, learning_rate:0.001, pred_len:336  
+mse:0.5100794434547424, mae:0.3620891869068146
+
+window_size:6, contrastive_weight:0.05, learning_rate:0.001, pred_len:336  
+mse:0.4333474338054657, mae:0.286454439163208
+
+window_size:6, contrastive_weight:0.07, learning_rate:0.001, pred_len:336  
+mse:0.4440058469772339, mae:0.2903638482093811
+
+window_size:6, contrastive_weight:0.1, learning_rate:0.001, pred_len:336  
+mse:0.4450187385082245, mae:0.28907668590545654
+
+window_size:7, contrastive_weight:0.05, learning_rate:0.001, pred_len:336  
+mse:0.44571200013160706, mae:0.28825944662094116
+
+window_size:7, contrastive_weight:0.07, learning_rate:0.001, pred_len:336  
+mse:0.4437921643257141, mae:0.2872806489467621
+
+window_size:7, contrastive_weight:0.1, learning_rate:0.001, pred_len:336  
+mse:0.44034790992736816, mae:0.2936919927597046
+
+window_size:8, contrastive_weight:0.05, learning_rate:0.001, pred_len:336  
+mse:0.4452175498008728, mae:0.2856582701206207
+
+window_size:8, contrastive_weight:0.07, learning_rate:0.001, pred_len:336  
+mse:0.4387945532798767, mae:0.28779810667037964
+
+window_size:8, contrastive_weight:0.1, learning_rate:0.001, pred_len:336  
+mse:0.4234633445739746, mae:0.28703662753105164
+
+window_size:9, contrastive_weight:0.05, learning_rate:0.001, pred_len:336  
+mse:0.43737295269966125, mae:0.28878676891326904
+
+window_size:9, contrastive_weight:0.07, learning_rate:0.001, pred_len:336  
+mse:0.5383685231208801, mae:0.375692754983902
+
+window_size:9, contrastive_weight:0.1, learning_rate:0.001, pred_len:336  
+mse:0.4391527771949768, mae:0.2875383794307709
+
+window_size:10, contrastive_weight:0.05, learning_rate:0.001, pred_len:336  
+mse:0.43593695759773254, mae:0.29018542170524597
+
+window_size:10, contrastive_weight:0.07, learning_rate:0.001, pred_len:336  
+mse:0.4397006034851074, mae:0.2902182340621948
+
+window_size:10, contrastive_weight:0.1, learning_rate:0.001, pred_len:336  
+mse:0.433097243309021, mae:0.2882877588272095
+
+window_size:11, contrastive_weight:0.05, learning_rate:0.001, pred_len:336  
+mse:0.4374035596847534, mae:0.2916073501110077
+
+window_size:11, contrastive_weight:0.07, learning_rate:0.001, pred_len:336  
+mse:0.42098236083984375, mae:0.2866363227367401
+
+window_size:11, contrastive_weight:0.1, learning_rate:0.001, pred_len:336  
+mse:0.43103891611099243, mae:0.28941527009010315
+
+window_size:12, contrastive_weight:0.05, learning_rate:0.001, pred_len:336  
+mse:0.5189347267150879, mae:0.3658788800239563
+
+window_size:12, contrastive_weight:0.07, learning_rate:0.001, pred_len:336  
+mse:0.4288443922996521, mae:0.28922268748283386
+
+window_size:12, contrastive_weight:0.1, learning_rate:0.001, pred_len:336  
+mse:0.4218483865261078, mae:0.286050409078598
+

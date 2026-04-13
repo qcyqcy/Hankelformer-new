@@ -1,0 +1,846 @@
+long_term_forecast_Texas_96_96_WPMixer_Texas_Freeze_ftM_sl96_ll0_pl96_dm256_nh8_el2_dl1_df2048_expand2_dc4_fc1_ebtimeF_dtTrue_test_0  
+mse:0.997962236404419, mae:0.7696828246116638, dtw:Not calculated
+
+long_term_forecast_Texas_96_96_iTransformer_Texas_Freeze_ftM_sl96_ll48_pl96_dm512_nh8_el2_dl1_df512_expand2_dc4_fc1_ebtimeF_dtTrue_Exp_0  
+mse:1.1079204082489014, mae:0.8074509501457214, dtw:Not calculated
+
+long_term_forecast_Texas_96_96_TimeMixer_Texas_Freeze_ftM_sl96_ll0_pl96_dm16_nh8_el2_dl1_df32_expand2_dc4_fc1_ebtimeF_dtTrue_Exp_0  
+mse:0.9817291498184204, mae:0.771909236907959, dtw:Not calculated
+
+long_term_forecast_Texas_96_96_TiDE_Texas_Freeze_ftM_sl96_ll48_pl96_dm256_nh8_el2_dl2_df256_expand2_dc4_fc1_ebtimeF_dtTrue_test_0  
+mse:1.0348784923553467, mae:0.7976597547531128, dtw:Not calculated
+
+long_term_forecast_Texas_96_96_PatchTST_Texas_Freeze_ftM_sl96_ll48_pl96_dm512_nh2_el1_dl1_df2048_expand2_dc4_fc3_ebtimeF_dtTrue_Exp_0  
+mse:1.0548372268676758, mae:0.8037011623382568, dtw:Not calculated
+
+long_term_forecast_Texas_96_96_TimesNet_Texas_Freeze_ftM_sl96_ll48_pl96_dm256_nh8_el2_dl1_df32_expand2_dc4_fc3_ebtimeF_dtTrue_Exp_0  
+mse:0.7844375371932983, mae:0.6880137324333191, dtw:Not calculated
+
+window_size:1, contrastive_weight:0.005, learning_rate:0.0003, pred_len:96  
+mse:0.7778250575065613, mae:0.6738420128822327
+
+window_size:1, contrastive_weight:0.005, learning_rate:0.0005, pred_len:96  
+mse:0.6777954697608948, mae:0.6372959017753601
+
+window_size:1, contrastive_weight:0.01, learning_rate:0.0003, pred_len:96  
+mse:0.756115734577179, mae:0.6663748025894165
+
+window_size:1, contrastive_weight:0.01, learning_rate:0.0005, pred_len:96  
+mse:0.7608612179756165, mae:0.6745580434799194
+
+window_size:1, contrastive_weight:0.03, learning_rate:0.0003, pred_len:96  
+mse:0.9069997072219849, mae:0.725426435470581
+
+window_size:1, contrastive_weight:0.03, learning_rate:0.0005, pred_len:96  
+mse:0.7728953957557678, mae:0.678563117980957
+
+window_size:2, contrastive_weight:0.005, learning_rate:0.0003, pred_len:96  
+mse:0.7724038362503052, mae:0.6852905750274658
+
+window_size:1, contrastive_weight:0.005, learning_rate:0.0001, pred_len:96  
+mse:0.902423620223999, mae:0.7314546704292297
+
+window_size:1, contrastive_weight:0.005, learning_rate:0.0003, pred_len:96  
+mse:0.7778250575065613, mae:0.6738420128822327
+
+window_size:1, contrastive_weight:0.005, learning_rate:0.0005, pred_len:96  
+mse:0.6777954697608948, mae:0.6372959017753601
+
+window_size:1, contrastive_weight:0.01, learning_rate:0.0001, pred_len:96  
+mse:0.9005114436149597, mae:0.7337270975112915
+
+window_size:1, contrastive_weight:0.01, learning_rate:0.0003, pred_len:96  
+mse:0.756115734577179, mae:0.6663748025894165
+
+window_size:1, contrastive_weight:0.01, learning_rate:0.0005, pred_len:96  
+mse:0.7608612179756165, mae:0.6745580434799194
+
+window_size:1, contrastive_weight:0.03, learning_rate:0.0001, pred_len:96  
+mse:0.9784724116325378, mae:0.7672500014305115
+
+window_size:1, contrastive_weight:0.03, learning_rate:0.0003, pred_len:96  
+mse:0.9069997072219849, mae:0.725426435470581
+
+window_size:1, contrastive_weight:0.03, learning_rate:0.0005, pred_len:96  
+mse:0.7728953957557678, mae:0.678563117980957
+
+window_size:2, contrastive_weight:0.005, learning_rate:0.0001, pred_len:96  
+mse:0.7854031324386597, mae:0.6861875057220459
+
+window_size:2, contrastive_weight:0.005, learning_rate:0.0003, pred_len:96  
+mse:0.7724038362503052, mae:0.6852905750274658
+
+window_size:2, contrastive_weight:0.005, learning_rate:0.0005, pred_len:96  
+mse:0.8320213556289673, mae:0.707545280456543
+
+window_size:2, contrastive_weight:0.01, learning_rate:0.0001, pred_len:96  
+mse:0.8777320384979248, mae:0.7289842367172241
+
+window_size:2, contrastive_weight:0.01, learning_rate:0.0003, pred_len:96  
+mse:0.9019796252250671, mae:0.7376223206520081
+
+window_size:1, contrastive_weight:0.001, learning_rate:5e-05, pred_len:96  
+mse:0.8542876839637756, mae:0.7208542227745056
+
+window_size:1, contrastive_weight:0.001, learning_rate:0.0001, pred_len:96  
+mse:0.9298754334449768, mae:0.7419434785842896
+
+window_size:1, contrastive_weight:0.001, learning_rate:0.0003, pred_len:96  
+mse:0.8975049257278442, mae:0.7329160571098328
+
+window_size:1, contrastive_weight:0.001, learning_rate:0.0005, pred_len:96  
+mse:0.8743934035301208, mae:0.7094981074333191
+
+window_size:1, contrastive_weight:0.005, learning_rate:5e-05, pred_len:96  
+mse:0.8761895895004272, mae:0.7297216653823853
+
+window_size:1, contrastive_weight:0.005, learning_rate:0.0001, pred_len:96  
+mse:0.902423620223999, mae:0.7314546704292297
+
+window_size:1, contrastive_weight:0.005, learning_rate:0.0003, pred_len:96  
+mse:0.7778250575065613, mae:0.6738420128822327
+
+window_size:1, contrastive_weight:0.005, learning_rate:0.0005, pred_len:96  
+mse:0.6777954697608948, mae:0.6372959017753601
+
+window_size:1, contrastive_weight:0.01, learning_rate:5e-05, pred_len:96  
+mse:0.9037559032440186, mae:0.7415034174919128
+
+window_size:1, contrastive_weight:0.01, learning_rate:0.0001, pred_len:96  
+mse:0.9005114436149597, mae:0.7337270975112915
+
+window_size:1, contrastive_weight:0.01, learning_rate:0.0003, pred_len:96  
+mse:0.756115734577179, mae:0.6663748025894165
+
+window_size:1, contrastive_weight:0.01, learning_rate:0.0005, pred_len:96  
+mse:0.7608612179756165, mae:0.6745580434799194
+
+window_size:2, contrastive_weight:0.001, learning_rate:5e-05, pred_len:96  
+mse:0.8128716945648193, mae:0.6947925686836243
+
+window_size:2, contrastive_weight:0.001, learning_rate:0.0001, pred_len:96  
+mse:0.8923402428627014, mae:0.7336382269859314
+
+window_size:2, contrastive_weight:0.001, learning_rate:0.0003, pred_len:96  
+mse:0.7380721569061279, mae:0.663811981678009
+
+window_size:2, contrastive_weight:0.001, learning_rate:0.0005, pred_len:96  
+mse:0.8685486316680908, mae:0.7214787602424622
+
+window_size:2, contrastive_weight:0.005, learning_rate:5e-05, pred_len:96  
+mse:0.8938890099525452, mae:0.7298579216003418
+
+window_size:2, contrastive_weight:0.005, learning_rate:0.0001, pred_len:96  
+mse:0.7854031324386597, mae:0.6861875057220459
+
+window_size:2, contrastive_weight:0.005, learning_rate:0.0003, pred_len:96  
+mse:0.7724038362503052, mae:0.6852905750274658
+
+window_size:2, contrastive_weight:0.005, learning_rate:0.0005, pred_len:96  
+mse:0.8320213556289673, mae:0.707545280456543
+
+window_size:2, contrastive_weight:0.01, learning_rate:5e-05, pred_len:96  
+mse:0.9172249436378479, mae:0.7419077754020691
+
+window_size:2, contrastive_weight:0.01, learning_rate:0.0001, pred_len:96  
+mse:0.8777320384979248, mae:0.7289842367172241
+
+window_size:2, contrastive_weight:0.01, learning_rate:0.0003, pred_len:96  
+mse:0.9019796252250671, mae:0.7376223206520081
+
+window_size:2, contrastive_weight:0.01, learning_rate:0.0005, pred_len:96  
+mse:0.9072592258453369, mae:0.7295870184898376
+
+window_size:3, contrastive_weight:0.001, learning_rate:5e-05, pred_len:96  
+mse:0.9217726588249207, mae:0.7435715198516846
+
+window_size:3, contrastive_weight:0.001, learning_rate:0.0001, pred_len:96  
+mse:0.7844538688659668, mae:0.6873081922531128
+
+window_size:3, contrastive_weight:0.001, learning_rate:0.0003, pred_len:96  
+mse:0.8666377663612366, mae:0.7129555940628052
+
+window_size:3, contrastive_weight:0.001, learning_rate:0.0005, pred_len:96  
+mse:0.8064519762992859, mae:0.681610643863678
+
+window_size:3, contrastive_weight:0.005, learning_rate:5e-05, pred_len:96  
+mse:0.9777648448944092, mae:0.7649433612823486
+
+window_size:3, contrastive_weight:0.005, learning_rate:0.0001, pred_len:96  
+mse:0.9279029369354248, mae:0.7431468963623047
+
+window_size:3, contrastive_weight:0.005, learning_rate:0.0003, pred_len:96  
+mse:0.9693976640701294, mae:0.756778359413147
+
+window_size:3, contrastive_weight:0.005, learning_rate:0.0005, pred_len:96  
+mse:0.8324539065361023, mae:0.696170449256897
+
+window_size:3, contrastive_weight:0.01, learning_rate:5e-05, pred_len:96  
+mse:0.7903438210487366, mae:0.686401903629303
+
+window_size:3, contrastive_weight:0.01, learning_rate:0.0001, pred_len:96  
+mse:0.9199180006980896, mae:0.7367590665817261
+
+window_size:3, contrastive_weight:0.01, learning_rate:0.0003, pred_len:96  
+mse:0.8704477548599243, mae:0.7115319967269897
+
+window_size:3, contrastive_weight:0.01, learning_rate:0.0005, pred_len:96  
+mse:0.9689125418663025, mae:0.7481799125671387
+
+window_size:4, contrastive_weight:0.001, learning_rate:5e-05, pred_len:96  
+mse:0.6637759208679199, mae:0.6371273398399353
+
+window_size:4, contrastive_weight:0.001, learning_rate:0.0001, pred_len:96  
+mse:0.7422898411750793, mae:0.6685869097709656
+
+window_size:4, contrastive_weight:0.001, learning_rate:0.0003, pred_len:96  
+mse:0.7518254518508911, mae:0.6674391031265259
+
+window_size:4, contrastive_weight:0.001, learning_rate:0.0005, pred_len:96  
+mse:0.9682782292366028, mae:0.7463853359222412
+
+window_size:4, contrastive_weight:0.005, learning_rate:5e-05, pred_len:96  
+mse:0.7983765602111816, mae:0.6941853761672974
+
+window_size:4, contrastive_weight:0.005, learning_rate:0.0001, pred_len:96  
+mse:0.8204841017723083, mae:0.6998238563537598
+
+window_size:4, contrastive_weight:0.005, learning_rate:0.0003, pred_len:96  
+mse:0.8282250165939331, mae:0.6970386505126953
+
+window_size:4, contrastive_weight:0.005, learning_rate:0.0005, pred_len:96  
+mse:0.9559469819068909, mae:0.7427756786346436
+
+window_size:4, contrastive_weight:0.01, learning_rate:5e-05, pred_len:96  
+mse:0.8115277290344238, mae:0.7004919052124023
+
+window_size:4, contrastive_weight:0.01, learning_rate:0.0001, pred_len:96  
+mse:0.8315854072570801, mae:0.705306887626648
+
+window_size:4, contrastive_weight:0.01, learning_rate:0.0003, pred_len:96  
+mse:0.7933202981948853, mae:0.6786857843399048
+
+window_size:4, contrastive_weight:0.01, learning_rate:0.0005, pred_len:96  
+mse:0.7553948760032654, mae:0.6622285842895508
+
+window_size:5, contrastive_weight:0.001, learning_rate:5e-05, pred_len:96  
+mse:0.8249139785766602, mae:0.7057337760925293
+
+window_size:5, contrastive_weight:0.001, learning_rate:0.0001, pred_len:96  
+mse:0.7775968909263611, mae:0.6960135698318481
+
+window_size:5, contrastive_weight:0.001, learning_rate:0.0003, pred_len:96  
+mse:0.7516074180603027, mae:0.6784784197807312
+
+window_size:5, contrastive_weight:0.001, learning_rate:0.0005, pred_len:96  
+mse:0.7310887575149536, mae:0.6636813282966614
+
+window_size:5, contrastive_weight:0.005, learning_rate:5e-05, pred_len:96  
+mse:0.8593252897262573, mae:0.7188330888748169
+
+window_size:5, contrastive_weight:0.005, learning_rate:0.0001, pred_len:96  
+mse:0.8265917301177979, mae:0.7129879593849182
+
+window_size:5, contrastive_weight:0.005, learning_rate:0.0003, pred_len:96  
+mse:0.7858383655548096, mae:0.693167507648468
+
+window_size:5, contrastive_weight:0.005, learning_rate:0.0005, pred_len:96  
+mse:0.7526156306266785, mae:0.666962742805481
+
+window_size:5, contrastive_weight:0.01, learning_rate:5e-05, pred_len:96  
+mse:0.8525995016098022, mae:0.716474711894989
+
+window_size:5, contrastive_weight:0.01, learning_rate:0.0001, pred_len:96  
+mse:0.8578126430511475, mae:0.7202880382537842
+
+window_size:5, contrastive_weight:0.01, learning_rate:0.0003, pred_len:96  
+mse:0.8167348504066467, mae:0.7049919366836548
+
+window_size:5, contrastive_weight:0.01, learning_rate:0.0005, pred_len:96  
+mse:0.8571969866752625, mae:0.7116478681564331
+
+window_size:6, contrastive_weight:0.001, learning_rate:5e-05, pred_len:96  
+mse:0.8947610855102539, mae:0.7309428453445435
+
+window_size:6, contrastive_weight:0.001, learning_rate:0.0001, pred_len:96  
+mse:0.7613580822944641, mae:0.6738767027854919
+
+window_size:6, contrastive_weight:0.001, learning_rate:0.0003, pred_len:96  
+mse:0.877575695514679, mae:0.7183394432067871
+
+window_size:6, contrastive_weight:0.001, learning_rate:0.0005, pred_len:96  
+mse:0.9946721792221069, mae:0.7676448822021484
+
+window_size:6, contrastive_weight:0.005, learning_rate:5e-05, pred_len:96  
+mse:0.7554327845573425, mae:0.6733267903327942
+
+window_size:6, contrastive_weight:0.005, learning_rate:0.0001, pred_len:96  
+mse:0.7694032192230225, mae:0.6685313582420349
+
+window_size:6, contrastive_weight:0.005, learning_rate:0.0003, pred_len:96  
+mse:0.889549970626831, mae:0.7266978621482849
+
+window_size:6, contrastive_weight:0.005, learning_rate:0.0005, pred_len:96  
+mse:0.9569563269615173, mae:0.7531909942626953
+
+window_size:6, contrastive_weight:0.01, learning_rate:5e-05, pred_len:96  
+mse:0.7345705628395081, mae:0.665016233921051
+
+window_size:6, contrastive_weight:0.01, learning_rate:0.0001, pred_len:96  
+mse:0.8122048377990723, mae:0.6869105100631714
+
+window_size:6, contrastive_weight:0.01, learning_rate:0.0003, pred_len:96  
+mse:0.87828129529953, mae:0.7185458540916443
+
+window_size:6, contrastive_weight:0.01, learning_rate:0.0005, pred_len:96  
+mse:1.011208176612854, mae:0.7783531546592712
+
+window_size:7, contrastive_weight:0.001, learning_rate:5e-05, pred_len:96  
+mse:0.6506341695785522, mae:0.6297312378883362
+
+window_size:7, contrastive_weight:0.001, learning_rate:0.0001, pred_len:96  
+mse:0.6498118042945862, mae:0.6260457038879395
+
+window_size:7, contrastive_weight:0.001, learning_rate:0.0003, pred_len:96  
+mse:0.7889641523361206, mae:0.6819035410881042
+
+window_size:7, contrastive_weight:0.001, learning_rate:0.0005, pred_len:96  
+mse:0.926942765712738, mae:0.7377949357032776
+
+window_size:7, contrastive_weight:0.005, learning_rate:5e-05, pred_len:96  
+mse:0.687915027141571, mae:0.6450180411338806
+
+window_size:7, contrastive_weight:0.005, learning_rate:0.0001, pred_len:96  
+mse:0.6848064661026001, mae:0.6403138041496277
+
+window_size:7, contrastive_weight:0.005, learning_rate:0.0003, pred_len:96  
+mse:0.7862041592597961, mae:0.6806625127792358
+
+window_size:7, contrastive_weight:0.005, learning_rate:0.0005, pred_len:96  
+mse:0.9269658923149109, mae:0.7389170527458191
+
+window_size:7, contrastive_weight:0.01, learning_rate:5e-05, pred_len:96  
+mse:0.7064042091369629, mae:0.652910053730011
+
+window_size:7, contrastive_weight:0.01, learning_rate:0.0001, pred_len:96  
+mse:0.7251123189926147, mae:0.652963399887085
+
+window_size:7, contrastive_weight:0.01, learning_rate:0.0003, pred_len:96  
+mse:0.8636524081230164, mae:0.70355623960495
+
+window_size:7, contrastive_weight:0.01, learning_rate:0.0005, pred_len:96  
+mse:0.9673635363578796, mae:0.7590211629867554
+
+window_size:8, contrastive_weight:0.001, learning_rate:5e-05, pred_len:96  
+mse:0.860144317150116, mae:0.7165322303771973
+
+window_size:8, contrastive_weight:0.001, learning_rate:0.0001, pred_len:96  
+mse:0.8301722407341003, mae:0.7089698910713196
+
+window_size:8, contrastive_weight:0.001, learning_rate:0.0003, pred_len:96  
+mse:0.8368715047836304, mae:0.700989842414856
+
+window_size:8, contrastive_weight:0.001, learning_rate:0.0005, pred_len:96  
+mse:1.1295945644378662, mae:0.8221549987792969
+
+window_size:8, contrastive_weight:0.005, learning_rate:5e-05, pred_len:96  
+mse:0.868209958076477, mae:0.7180319428443909
+
+window_size:8, contrastive_weight:0.005, learning_rate:0.0001, pred_len:96  
+mse:0.8419052362442017, mae:0.7070181965827942
+
+window_size:8, contrastive_weight:0.005, learning_rate:0.0003, pred_len:96  
+mse:0.9172117710113525, mae:0.7340003252029419
+
+window_size:8, contrastive_weight:0.005, learning_rate:0.0005, pred_len:96  
+mse:1.1186193227767944, mae:0.8053083419799805
+
+window_size:8, contrastive_weight:0.01, learning_rate:5e-05, pred_len:96  
+mse:0.8982933759689331, mae:0.72775799036026
+
+window_size:8, contrastive_weight:0.01, learning_rate:0.0001, pred_len:96  
+mse:0.8172545433044434, mae:0.6931788325309753
+
+window_size:8, contrastive_weight:0.01, learning_rate:0.0003, pred_len:96  
+mse:0.8049797415733337, mae:0.6946220993995667
+
+window_size:8, contrastive_weight:0.01, learning_rate:0.0005, pred_len:96  
+mse:1.1373701095581055, mae:0.815728485584259
+
+window_size:9, contrastive_weight:0.001, learning_rate:5e-05, pred_len:96  
+mse:0.675743043422699, mae:0.6450898051261902
+
+window_size:9, contrastive_weight:0.001, learning_rate:0.0001, pred_len:96  
+mse:0.7363799810409546, mae:0.6676374673843384
+
+window_size:9, contrastive_weight:0.001, learning_rate:0.0003, pred_len:96  
+mse:0.945476770401001, mae:0.7534035444259644
+
+window_size:9, contrastive_weight:0.001, learning_rate:0.0005, pred_len:96  
+mse:1.0454894304275513, mae:0.7884505987167358
+
+window_size:9, contrastive_weight:0.005, learning_rate:5e-05, pred_len:96  
+mse:0.7055801153182983, mae:0.6561803221702576
+
+window_size:9, contrastive_weight:0.005, learning_rate:0.0001, pred_len:96  
+mse:0.7497026920318604, mae:0.6696090698242188
+
+window_size:9, contrastive_weight:0.005, learning_rate:0.0003, pred_len:96  
+mse:1.0153568983078003, mae:0.7770504951477051
+
+window_size:9, contrastive_weight:0.005, learning_rate:0.0005, pred_len:96  
+mse:1.0648773908615112, mae:0.7999980449676514
+
+window_size:9, contrastive_weight:0.01, learning_rate:5e-05, pred_len:96  
+mse:0.763042151927948, mae:0.6780582070350647
+
+window_size:9, contrastive_weight:0.01, learning_rate:0.0001, pred_len:96  
+mse:0.7734946608543396, mae:0.6804064512252808
+
+window_size:9, contrastive_weight:0.01, learning_rate:0.0003, pred_len:96  
+mse:0.942904531955719, mae:0.7519901990890503
+
+window_size:9, contrastive_weight:0.01, learning_rate:0.0005, pred_len:96  
+mse:1.053712010383606, mae:0.7932184934616089
+
+window_size:10, contrastive_weight:0.001, learning_rate:5e-05, pred_len:96  
+mse:0.8198723196983337, mae:0.7014690637588501
+
+window_size:10, contrastive_weight:0.001, learning_rate:0.0001, pred_len:96  
+mse:0.9062908887863159, mae:0.7307602167129517
+
+window_size:10, contrastive_weight:0.001, learning_rate:0.0003, pred_len:96  
+mse:1.0072011947631836, mae:0.7638007402420044
+
+window_size:10, contrastive_weight:0.001, learning_rate:0.0005, pred_len:96  
+mse:1.044415831565857, mae:0.7737867832183838
+
+window_size:10, contrastive_weight:0.005, learning_rate:5e-05, pred_len:96  
+mse:0.8669562935829163, mae:0.7197610139846802
+
+window_size:10, contrastive_weight:0.005, learning_rate:0.0001, pred_len:96  
+mse:0.9636733531951904, mae:0.7493451237678528
+
+window_size:10, contrastive_weight:0.005, learning_rate:0.0003, pred_len:96  
+mse:0.8537572622299194, mae:0.7039793133735657
+
+window_size:10, contrastive_weight:0.005, learning_rate:0.0005, pred_len:96  
+mse:1.121381163597107, mae:0.8113276958465576
+
+window_size:10, contrastive_weight:0.01, learning_rate:5e-05, pred_len:96  
+mse:0.7127357721328735, mae:0.6487230658531189
+
+window_size:10, contrastive_weight:0.01, learning_rate:0.0001, pred_len:96  
+mse:0.8998169898986816, mae:0.7217544317245483
+
+window_size:10, contrastive_weight:0.01, learning_rate:0.0003, pred_len:96  
+mse:1.0479001998901367, mae:0.787164032459259
+
+window_size:10, contrastive_weight:0.01, learning_rate:0.0005, pred_len:96  
+mse:1.1701252460479736, mae:0.8293545842170715
+
+window_size:11, contrastive_weight:0.001, learning_rate:5e-05, pred_len:96  
+mse:0.9497920870780945, mae:0.7564640641212463
+
+window_size:11, contrastive_weight:0.001, learning_rate:0.0001, pred_len:96  
+mse:0.905651867389679, mae:0.729720950126648
+
+window_size:11, contrastive_weight:0.001, learning_rate:0.0003, pred_len:96  
+mse:1.0904206037521362, mae:0.7946309447288513
+
+window_size:11, contrastive_weight:0.001, learning_rate:0.0005, pred_len:96  
+mse:0.8802935481071472, mae:0.7327171564102173
+
+window_size:11, contrastive_weight:0.005, learning_rate:5e-05, pred_len:96  
+mse:0.7565730214118958, mae:0.6799994707107544
+
+window_size:11, contrastive_weight:0.005, learning_rate:0.0001, pred_len:96  
+mse:0.8273667097091675, mae:0.7089329361915588
+
+window_size:11, contrastive_weight:0.005, learning_rate:0.0003, pred_len:96  
+mse:0.8019921779632568, mae:0.683195173740387
+
+window_size:11, contrastive_weight:0.005, learning_rate:0.0005, pred_len:96  
+mse:0.9385265111923218, mae:0.7497773170471191
+
+window_size:11, contrastive_weight:0.01, learning_rate:5e-05, pred_len:96  
+mse:0.8024085164070129, mae:0.6959862112998962
+
+window_size:11, contrastive_weight:0.01, learning_rate:0.0001, pred_len:96  
+mse:0.9037189483642578, mae:0.7416645884513855
+
+window_size:11, contrastive_weight:0.01, learning_rate:0.0003, pred_len:96  
+mse:0.7764794826507568, mae:0.6791174411773682
+
+window_size:11, contrastive_weight:0.01, learning_rate:0.0005, pred_len:96  
+mse:0.9481673836708069, mae:0.763610303401947
+
+window_size:12, contrastive_weight:0.001, learning_rate:5e-05, pred_len:96  
+mse:0.8473371267318726, mae:0.7145577669143677
+
+window_size:12, contrastive_weight:0.001, learning_rate:0.0001, pred_len:96  
+mse:0.899267852306366, mae:0.7328217625617981
+
+window_size:12, contrastive_weight:0.001, learning_rate:0.0003, pred_len:96  
+mse:0.8869040608406067, mae:0.7277913093566895
+
+window_size:12, contrastive_weight:0.001, learning_rate:0.0005, pred_len:96  
+mse:1.0082318782806396, mae:0.7805947661399841
+
+window_size:12, contrastive_weight:0.005, learning_rate:5e-05, pred_len:96  
+mse:0.731139063835144, mae:0.6610203981399536
+
+window_size:12, contrastive_weight:0.005, learning_rate:0.0001, pred_len:96  
+mse:0.8079917430877686, mae:0.6909128427505493
+
+window_size:12, contrastive_weight:0.005, learning_rate:0.0003, pred_len:96  
+mse:0.7907485365867615, mae:0.6799929141998291
+
+window_size:12, contrastive_weight:0.005, learning_rate:0.0005, pred_len:96  
+mse:1.0756723880767822, mae:0.8048933148384094
+
+window_size:12, contrastive_weight:0.01, learning_rate:5e-05, pred_len:96  
+mse:0.8079266548156738, mae:0.6899304986000061
+
+window_size:12, contrastive_weight:0.01, learning_rate:0.0001, pred_len:96  
+mse:0.8835614919662476, mae:0.7117448449134827
+
+window_size:12, contrastive_weight:0.01, learning_rate:0.0003, pred_len:96  
+mse:0.9211321473121643, mae:0.7374440431594849
+
+window_size:12, contrastive_weight:0.01, learning_rate:0.0005, pred_len:96  
+mse:1.0896377563476562, mae:0.809006929397583
+
+window_size:13, contrastive_weight:0.001, learning_rate:5e-05, pred_len:96  
+mse:0.7537915706634521, mae:0.6747559309005737
+
+window_size:13, contrastive_weight:0.001, learning_rate:0.0001, pred_len:96  
+mse:0.818614661693573, mae:0.6918604969978333
+
+window_size:13, contrastive_weight:0.001, learning_rate:0.0003, pred_len:96  
+mse:0.951017439365387, mae:0.7416356801986694
+
+window_size:13, contrastive_weight:0.001, learning_rate:0.0005, pred_len:96  
+mse:0.9216678142547607, mae:0.7460216283798218
+
+window_size:13, contrastive_weight:0.005, learning_rate:5e-05, pred_len:96  
+mse:0.6944030523300171, mae:0.6501511335372925
+
+window_size:13, contrastive_weight:0.005, learning_rate:0.0001, pred_len:96  
+mse:0.7968044877052307, mae:0.6823859214782715
+
+window_size:13, contrastive_weight:0.005, learning_rate:0.0003, pred_len:96  
+mse:0.9748643636703491, mae:0.758009135723114
+
+window_size:13, contrastive_weight:0.005, learning_rate:0.0005, pred_len:96  
+mse:0.8732567429542542, mae:0.7223342061042786
+
+window_size:13, contrastive_weight:0.01, learning_rate:5e-05, pred_len:96  
+mse:0.804304838180542, mae:0.7031018733978271
+
+window_size:13, contrastive_weight:0.01, learning_rate:0.0001, pred_len:96  
+mse:0.8138611912727356, mae:0.7102303504943848
+
+window_size:13, contrastive_weight:0.01, learning_rate:0.0003, pred_len:96  
+mse:0.8389710187911987, mae:0.7076781392097473
+
+window_size:13, contrastive_weight:0.01, learning_rate:0.0005, pred_len:96  
+mse:0.847378671169281, mae:0.7182778716087341
+
+window_size:14, contrastive_weight:0.001, learning_rate:5e-05, pred_len:96  
+mse:0.8196379542350769, mae:0.7061890959739685
+
+window_size:14, contrastive_weight:0.001, learning_rate:0.0001, pred_len:96  
+mse:0.6783220767974854, mae:0.6407346725463867
+
+window_size:14, contrastive_weight:0.001, learning_rate:0.0003, pred_len:96  
+mse:0.7249459028244019, mae:0.6584245562553406
+
+window_size:14, contrastive_weight:0.001, learning_rate:0.0005, pred_len:96  
+mse:0.9616195559501648, mae:0.7624127268791199
+
+window_size:14, contrastive_weight:0.005, learning_rate:5e-05, pred_len:96  
+mse:0.8259855508804321, mae:0.7088624835014343
+
+window_size:14, contrastive_weight:0.005, learning_rate:0.0001, pred_len:96  
+mse:0.7596044540405273, mae:0.6776301264762878
+
+window_size:14, contrastive_weight:0.005, learning_rate:0.0003, pred_len:96  
+mse:0.7978200912475586, mae:0.6932751536369324
+
+window_size:14, contrastive_weight:0.005, learning_rate:0.0005, pred_len:96  
+mse:0.9961150288581848, mae:0.7762141823768616
+
+window_size:14, contrastive_weight:0.01, learning_rate:5e-05, pred_len:96  
+mse:0.8443050384521484, mae:0.7167204022407532
+
+window_size:14, contrastive_weight:0.01, learning_rate:0.0001, pred_len:96  
+mse:0.7989532351493835, mae:0.693958580493927
+
+window_size:14, contrastive_weight:0.01, learning_rate:0.0003, pred_len:96  
+mse:0.9296556711196899, mae:0.7384252548217773
+
+window_size:14, contrastive_weight:0.01, learning_rate:0.0005, pred_len:96  
+mse:1.089292287826538, mae:0.8020816445350647
+
+window_size:15, contrastive_weight:0.001, learning_rate:5e-05, pred_len:96  
+mse:0.7087298035621643, mae:0.6570584177970886
+
+window_size:15, contrastive_weight:0.001, learning_rate:0.0001, pred_len:96  
+mse:0.676660418510437, mae:0.6388278603553772
+
+window_size:15, contrastive_weight:0.001, learning_rate:0.0003, pred_len:96  
+mse:0.8110868334770203, mae:0.6976324915885925
+
+window_size:15, contrastive_weight:0.001, learning_rate:0.0005, pred_len:96  
+mse:1.0092531442642212, mae:0.7791666984558105
+
+window_size:15, contrastive_weight:0.005, learning_rate:5e-05, pred_len:96  
+mse:0.7968418598175049, mae:0.688755989074707
+
+window_size:15, contrastive_weight:0.005, learning_rate:0.0001, pred_len:96  
+mse:0.7809469699859619, mae:0.6703662872314453
+
+window_size:15, contrastive_weight:0.005, learning_rate:0.0003, pred_len:96  
+mse:0.8790979981422424, mae:0.7375878691673279
+
+window_size:15, contrastive_weight:0.005, learning_rate:0.0005, pred_len:96  
+mse:0.9958801865577698, mae:0.7727059125900269
+
+window_size:15, contrastive_weight:0.01, learning_rate:5e-05, pred_len:96  
+mse:0.905716598033905, mae:0.7356230020523071
+
+window_size:15, contrastive_weight:0.01, learning_rate:0.0001, pred_len:96  
+mse:0.8523346185684204, mae:0.7109168767929077
+
+window_size:15, contrastive_weight:0.01, learning_rate:0.0003, pred_len:96  
+mse:0.8455373048782349, mae:0.7018619179725647
+
+window_size:15, contrastive_weight:0.01, learning_rate:0.0005, pred_len:96  
+mse:0.9531247019767761, mae:0.759160041809082
+
+window_size:16, contrastive_weight:0.001, learning_rate:5e-05, pred_len:96  
+mse:0.7569345235824585, mae:0.6785404086112976
+
+window_size:16, contrastive_weight:0.001, learning_rate:0.0001, pred_len:96  
+mse:0.7397559881210327, mae:0.6662365198135376
+
+window_size:16, contrastive_weight:0.001, learning_rate:0.0003, pred_len:96  
+mse:0.9345563650131226, mae:0.7376208901405334
+
+window_size:16, contrastive_weight:0.001, learning_rate:0.0005, pred_len:96  
+mse:1.035835862159729, mae:0.7909362316131592
+
+window_size:16, contrastive_weight:0.005, learning_rate:5e-05, pred_len:96  
+mse:0.8939720988273621, mae:0.7385278344154358
+
+window_size:16, contrastive_weight:0.005, learning_rate:0.0001, pred_len:96  
+mse:0.9272559881210327, mae:0.7403137683868408
+
+window_size:16, contrastive_weight:0.005, learning_rate:0.0003, pred_len:96  
+mse:0.901964545249939, mae:0.7295713424682617
+
+window_size:16, contrastive_weight:0.005, learning_rate:0.0005, pred_len:96  
+mse:1.083443284034729, mae:0.8093364834785461
+
+window_size:16, contrastive_weight:0.01, learning_rate:5e-05, pred_len:96  
+mse:0.9264155626296997, mae:0.7487108707427979
+
+window_size:16, contrastive_weight:0.01, learning_rate:0.0001, pred_len:96  
+mse:1.0156893730163574, mae:0.7801449298858643
+
+window_size:16, contrastive_weight:0.01, learning_rate:0.0003, pred_len:96  
+mse:0.895637571811676, mae:0.7226175665855408
+
+window_size:16, contrastive_weight:0.01, learning_rate:0.0005, pred_len:96  
+mse:1.018223762512207, mae:0.7838167548179626
+
+window_size:18, contrastive_weight:0.001, learning_rate:5e-05, pred_len:96  
+mse:0.6389537453651428, mae:0.631822407245636
+
+window_size:18, contrastive_weight:0.001, learning_rate:0.0001, pred_len:96  
+mse:0.7360928654670715, mae:0.6742932796478271
+
+window_size:18, contrastive_weight:0.001, learning_rate:0.0003, pred_len:96  
+mse:0.7835580706596375, mae:0.6750974655151367
+
+window_size:18, contrastive_weight:0.001, learning_rate:0.0005, pred_len:96  
+mse:1.039725422859192, mae:0.7935588955879211
+
+window_size:18, contrastive_weight:0.005, learning_rate:5e-05, pred_len:96  
+mse:0.8948264718055725, mae:0.7372298240661621
+
+window_size:18, contrastive_weight:0.005, learning_rate:0.0001, pred_len:96  
+mse:0.6361958384513855, mae:0.6209811568260193
+
+window_size:18, contrastive_weight:0.005, learning_rate:0.0003, pred_len:96  
+mse:0.750710129737854, mae:0.6752045154571533
+
+window_size:18, contrastive_weight:0.005, learning_rate:0.0005, pred_len:96  
+mse:1.1705317497253418, mae:0.8476462960243225
+
+window_size:18, contrastive_weight:0.01, learning_rate:5e-05, pred_len:96  
+mse:0.8932126760482788, mae:0.7357587814331055
+
+window_size:18, contrastive_weight:0.01, learning_rate:0.0001, pred_len:96  
+mse:1.017181158065796, mae:0.7784764170646667
+
+window_size:18, contrastive_weight:0.01, learning_rate:0.0003, pred_len:96  
+mse:0.7846044898033142, mae:0.6805071830749512
+
+window_size:18, contrastive_weight:0.01, learning_rate:0.0005, pred_len:96  
+mse:1.0557889938354492, mae:0.8055280447006226
+
+window_size:20, contrastive_weight:0.001, learning_rate:5e-05, pred_len:96  
+mse:0.6518925428390503, mae:0.6267995238304138
+
+window_size:20, contrastive_weight:0.001, learning_rate:0.0001, pred_len:96  
+mse:0.7406505346298218, mae:0.6612903475761414
+
+window_size:20, contrastive_weight:0.001, learning_rate:0.0003, pred_len:96  
+mse:0.6282870769500732, mae:0.6193678379058838
+
+window_size:20, contrastive_weight:0.001, learning_rate:0.0005, pred_len:96  
+mse:0.9496462941169739, mae:0.7507741451263428
+
+window_size:20, contrastive_weight:0.005, learning_rate:5e-05, pred_len:96  
+mse:0.6084440350532532, mae:0.6066822409629822
+
+window_size:20, contrastive_weight:0.005, learning_rate:0.0001, pred_len:96  
+mse:0.7557618021965027, mae:0.66474449634552
+
+window_size:20, contrastive_weight:0.005, learning_rate:0.0003, pred_len:96  
+mse:0.7014062404632568, mae:0.6446597576141357
+
+window_size:20, contrastive_weight:0.005, learning_rate:0.0005, pred_len:96  
+mse:1.0267547369003296, mae:0.7855421304702759
+
+window_size:20, contrastive_weight:0.01, learning_rate:5e-05, pred_len:96  
+mse:0.6907974481582642, mae:0.6432587504386902
+
+window_size:20, contrastive_weight:0.01, learning_rate:0.0001, pred_len:96  
+mse:0.6885616183280945, mae:0.6377249956130981
+
+window_size:20, contrastive_weight:0.01, learning_rate:0.0003, pred_len:96  
+mse:0.7286757230758667, mae:0.6646968126296997
+
+window_size:20, contrastive_weight:0.01, learning_rate:0.0005, pred_len:96  
+mse:1.1331502199172974, mae:0.8249679207801819
+
+window_size:22, contrastive_weight:0.001, learning_rate:5e-05, pred_len:96  
+mse:0.9085224866867065, mae:0.7403849363327026
+
+window_size:22, contrastive_weight:0.001, learning_rate:0.0001, pred_len:96  
+mse:1.0233087539672852, mae:0.7761186361312866
+
+window_size:22, contrastive_weight:0.001, learning_rate:0.0003, pred_len:96  
+mse:0.9752638339996338, mae:0.7536613345146179
+
+window_size:22, contrastive_weight:0.001, learning_rate:0.0005, pred_len:96  
+mse:1.093268632888794, mae:0.8072594404220581
+
+window_size:22, contrastive_weight:0.005, learning_rate:5e-05, pred_len:96  
+mse:0.7790502309799194, mae:0.6907132863998413
+
+window_size:22, contrastive_weight:0.005, learning_rate:0.0001, pred_len:96  
+mse:0.8160853385925293, mae:0.7036978602409363
+
+window_size:22, contrastive_weight:0.005, learning_rate:0.0003, pred_len:96  
+mse:1.093298077583313, mae:0.8028616309165955
+
+window_size:22, contrastive_weight:0.005, learning_rate:0.0005, pred_len:96  
+mse:1.1802784204483032, mae:0.8251677751541138
+
+window_size:22, contrastive_weight:0.01, learning_rate:5e-05, pred_len:96  
+mse:0.7744850516319275, mae:0.6875749230384827
+
+window_size:22, contrastive_weight:0.01, learning_rate:0.0001, pred_len:96  
+mse:0.849230170249939, mae:0.7145289182662964
+
+window_size:22, contrastive_weight:0.01, learning_rate:0.0003, pred_len:96  
+mse:1.017106056213379, mae:0.770003080368042
+
+window_size:22, contrastive_weight:0.01, learning_rate:0.0005, pred_len:96  
+mse:1.148335576057434, mae:0.8197728395462036
+
+window_size:24, contrastive_weight:0.001, learning_rate:5e-05, pred_len:96  
+mse:0.568740963935852, mae:0.5910800099372864
+
+window_size:24, contrastive_weight:0.001, learning_rate:0.0001, pred_len:96  
+mse:0.6870766878128052, mae:0.6422136425971985
+
+window_size:24, contrastive_weight:0.001, learning_rate:0.0003, pred_len:96  
+mse:1.0783731937408447, mae:0.7792358994483948
+
+window_size:24, contrastive_weight:0.001, learning_rate:0.0005, pred_len:96  
+mse:1.230462670326233, mae:0.8465637564659119
+
+window_size:24, contrastive_weight:0.005, learning_rate:5e-05, pred_len:96  
+mse:0.8015823364257812, mae:0.697827160358429
+
+window_size:24, contrastive_weight:0.005, learning_rate:0.0001, pred_len:96  
+mse:0.8446292281150818, mae:0.7082127928733826
+
+window_size:24, contrastive_weight:0.005, learning_rate:0.0003, pred_len:96  
+mse:1.0598464012145996, mae:0.768504798412323
+
+window_size:24, contrastive_weight:0.005, learning_rate:0.0005, pred_len:96  
+mse:1.100523829460144, mae:0.8167075514793396
+
+window_size:24, contrastive_weight:0.01, learning_rate:5e-05, pred_len:96  
+mse:0.794390857219696, mae:0.6975587010383606
+
+window_size:24, contrastive_weight:0.01, learning_rate:0.0001, pred_len:96  
+mse:0.7194496393203735, mae:0.6563258767127991
+
+window_size:24, contrastive_weight:0.01, learning_rate:0.0003, pred_len:96  
+mse:1.1104018688201904, mae:0.8024899959564209
+
+window_size:24, contrastive_weight:0.01, learning_rate:0.0005, pred_len:96  
+mse:1.22440767288208, mae:0.8343446850776672
+
+window_size:20, contrastive_weight:0.001, learning_rate:0.0003, pred_len:96  
+mse:0.6282870769500732, mae:0.6193678379058838
+
+window_size:20, contrastive_weight:0.001, learning_rate:0.0003, pred_len:96  
+mse:0.6282870769500732, mae:0.6193678379058838
+
+long_term_forecast_Texas_96_96_iTransformer_Texas_Freeze_ftM_sl96_ll48_pl96_dm512_nh8_el2_dl1_df512_expand2_dc4_fc1_ebtimeF_dtTrue_Exp_0  
+mse:1.1079204082489014, mae:0.8074509501457214, dtw:Not calculated
+
+long_term_forecast_Texas_96_96_TimeMixer_Texas_Freeze_ftM_sl96_ll0_pl96_dm16_nh8_el2_dl1_df32_expand2_dc4_fc1_ebtimeF_dtTrue_Exp_0  
+mse:0.9815515279769897, mae:0.7718125581741333, dtw:Not calculated
+
+long_term_forecast_Texas_96_96_PatchTST_Texas_Freeze_ftM_sl96_ll48_pl96_dm512_nh2_el1_dl1_df2048_expand2_dc4_fc3_ebtimeF_dtTrue_Exp_0  
+mse:1.0548372268676758, mae:0.8037011623382568, dtw:Not calculated
+
+long_term_forecast_Texas_96_96_TimesNet_Texas_Freeze_ftM_sl96_ll48_pl96_dm256_nh8_el2_dl1_df32_expand2_dc4_fc3_ebtimeF_dtTrue_Exp_0  
+mse:0.7844375371932983, mae:0.6880137324333191, dtw:Not calculated
+
+long_term_forecast_Texas_96_96_iTransformer_Texas_Freeze_ftM_sl96_ll48_pl96_dm512_nh8_el2_dl1_df512_expand2_dc4_fc1_ebtimeF_dtTrue_Exp_0  
+mse:1.1079204082489014, mae:0.8074509501457214, dtw:Not calculated
+
+long_term_forecast_Texas_96_96_PatchTST_Texas_Freeze_ftM_sl96_ll48_pl96_dm512_nh2_el1_dl1_df2048_expand2_dc4_fc3_ebtimeF_dtTrue_Exp_0  
+mse:1.0548372268676758, mae:0.8037011623382568, dtw:Not calculated
+
+long_term_forecast_Texas_96_96_TiDE_Texas_Freeze_ftM_sl96_ll48_pl96_dm256_nh8_el2_dl2_df256_expand2_dc4_fc1_ebtimeF_dtTrue_test_0  
+mse:1.0348784923553467, mae:0.7976597547531128, dtw:Not calculated
+
+long_term_forecast_Texas_96_96_TimesNet_Texas_Freeze_ftM_sl96_ll48_pl96_dm256_nh8_el2_dl1_df32_expand2_dc4_fc2_ebtimeF_dtTrue_Exp_0  
+mse:0.7752622365951538, mae:0.6819865107536316, dtw:Not calculated
+
+long_term_forecast_Texas_96_96_TimeMixer_Texas_Freeze_ftM_sl96_ll0_pl96_dm16_nh8_el2_dl1_df32_expand2_dc4_fc1_ebtimeF_dtTrue_Exp_0  
+mse:0.9820190668106079, mae:0.7720073461532593, dtw:Not calculated
+
+long_term_forecast_Texas_96_96_WPMixer_Texas_Freeze_ftM_sl96_ll48_pl96_dm128_nh8_el2_dl1_df2048_expand2_dc4_fc1_ebtimeF_dtTrue_test_0  
+mse:1.0862762928009033, mae:0.8049443364143372, dtw:Not calculated
+
+window_size:20, contrastive_weight:0.001, learning_rate:0.0003, pred_len:96  
+mse:0.6282870769500732, mae:0.6193678379058838
+
+long_term_forecast_Texas_96_96_Crossformer_Texas_Freeze_ftM_sl96_ll48_pl96_dm32_nh8_el2_dl1_df32_expand2_dc4_fc3_ebtimeF_dtTrue_Exp_0  
+mse:1.0574196577072144, mae:0.8881356716156006, dtw:Not calculated
+
+long_term_forecast_Texas_96_96_Crossformer_Texas_Freeze_ftM_sl96_ll48_pl96_dm32_nh8_el2_dl1_df32_expand2_dc4_fc3_ebtimeF_dtTrue_Exp_0  
+mse:1.0545400381088257, mae:0.8868374228477478, dtw:Not calculated
+

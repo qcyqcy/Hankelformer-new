@@ -1,0 +1,21 @@
+long_term_forecast_coupled_lorenz_noise_0.1_96_96_iTransformer_custom_ftM_sl96_ll48_pl96_dm512_nh8_el2_dl1_df512_expand2_dc4_fc1_ebtimeF_dtTrue_Exp_0  
+mse:0.5249297618865967, mae:0.5067407488822937, dtw:Not calculated
+
+long_term_forecast_coupled_lorenz_noise_0.1_96_96_TimeMixer_custom_ftM_sl96_ll0_pl96_dm8_nh8_el1_dl1_df4_expand2_dc4_fc1_ebtimeF_dtTrue_Exp_0  
+mse:0.40706756711006165, mae:0.424795538187027, dtw:Not calculated
+
+long_term_forecast_coupled_lorenz_noise_0.1_96_96_TiDE_custom_ftM_sl96_ll48_pl96_dm256_nh8_el2_dl2_df256_expand2_dc4_fc1_ebtimeF_dtTrue_test_0  
+mse:0.9247788786888123, mae:0.7209450006484985, dtw:Not calculated
+
+long_term_forecast_coupled_lorenz_noise_0.1_96_96_PatchTST_custom_ftM_sl96_ll48_pl96_dm512_nh1_el1_dl1_df2048_expand2_dc4_fc2_ebtimeF_dtTrue_Exp_0  
+mse:0.5416459441184998, mae:0.5202475190162659, dtw:Not calculated
+
+long_term_forecast_coupled_lorenz_noise_0.1_96_96_TimesNet_custom_ftM_sl96_ll48_pl96_dm256_nh8_el2_dl1_df32_expand2_dc4_fc3_ebtimeF_dtTrue_Exp_0  
+mse:1.1089699268341064, mae:0.8542407751083374, dtw:Not calculated
+
+long_term_forecast_coupled_lorenz_noise_0.1_96_96_WPMixer_custom_ftM_sl96_ll48_pl96_dm64_nh8_el2_dl1_df2048_expand2_dc4_fc1_ebtimeF_dtTrue_test_0  
+mse:0.5407260060310364, mae:0.5163174867630005, dtw:Not calculated
+
+window_size:3, contrastive_weight:0.375, learning_rate:0.0014, pred_len:96  
+mse:0.35312727093696594, mae:0.3836759030818939
+

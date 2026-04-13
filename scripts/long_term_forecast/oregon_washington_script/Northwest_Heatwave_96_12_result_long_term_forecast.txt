@@ -1,0 +1,266 @@
+window_size:3, contrastive_weight:0.0001, learning_rate:0.0001, pred_len:12  
+mse:0.109318308532238, mae:0.21863248944282532
+
+window_size:3, contrastive_weight:0.0001, learning_rate:0.0005, pred_len:12  
+mse:0.10991188883781433, mae:0.21557722985744476
+
+window_size:3, contrastive_weight:0.0001, learning_rate:0.001, pred_len:12  
+mse:0.10218062251806259, mae:0.20727668702602386
+
+window_size:3, contrastive_weight:0.001, learning_rate:0.0001, pred_len:12  
+mse:0.1073540672659874, mae:0.21801777184009552
+
+window_size:3, contrastive_weight:0.001, learning_rate:0.0005, pred_len:12  
+mse:0.10874874144792557, mae:0.21421010792255402
+
+window_size:3, contrastive_weight:0.001, learning_rate:0.001, pred_len:12  
+mse:0.10522228479385376, mae:0.2096160650253296
+
+window_size:3, contrastive_weight:0.01, learning_rate:0.0001, pred_len:12  
+mse:0.12123415619134903, mae:0.23077808320522308
+
+window_size:3, contrastive_weight:0.01, learning_rate:0.0005, pred_len:12  
+mse:0.11239422857761383, mae:0.2164972871541977
+
+window_size:3, contrastive_weight:0.01, learning_rate:0.001, pred_len:12  
+mse:0.10713957995176315, mae:0.21255360543727875
+
+window_size:6, contrastive_weight:0.0001, learning_rate:0.0001, pred_len:12  
+mse:0.10724193602800369, mae:0.21559667587280273
+
+window_size:6, contrastive_weight:0.0001, learning_rate:0.0005, pred_len:12  
+mse:0.11397121101617813, mae:0.2186068445444107
+
+window_size:6, contrastive_weight:0.0001, learning_rate:0.001, pred_len:12  
+mse:0.1180228739976883, mae:0.22564834356307983
+
+window_size:6, contrastive_weight:0.001, learning_rate:0.0001, pred_len:12  
+mse:0.10836739093065262, mae:0.21674244105815887
+
+window_size:6, contrastive_weight:0.001, learning_rate:0.0005, pred_len:12  
+mse:0.1119270771741867, mae:0.21517892181873322
+
+window_size:6, contrastive_weight:0.001, learning_rate:0.001, pred_len:12  
+mse:0.12058045715093613, mae:0.23008973896503448
+
+window_size:6, contrastive_weight:0.01, learning_rate:0.0001, pred_len:12  
+mse:0.11094147711992264, mae:0.22012732923030853
+
+window_size:6, contrastive_weight:0.01, learning_rate:0.0005, pred_len:12  
+mse:0.11380017548799515, mae:0.218365877866745
+
+window_size:6, contrastive_weight:0.01, learning_rate:0.001, pred_len:12  
+mse:0.11684493720531464, mae:0.22225411236286163
+
+window_size:12, contrastive_weight:0.0001, learning_rate:0.0001, pred_len:12  
+mse:0.10996783524751663, mae:0.21794700622558594
+
+window_size:12, contrastive_weight:0.0001, learning_rate:0.0005, pred_len:12  
+mse:0.1127285286784172, mae:0.21969641745090485
+
+window_size:12, contrastive_weight:0.0001, learning_rate:0.001, pred_len:12  
+mse:0.12114643305540085, mae:0.22689507901668549
+
+window_size:12, contrastive_weight:0.001, learning_rate:0.0001, pred_len:12  
+mse:0.109930619597435, mae:0.21759524941444397
+
+window_size:12, contrastive_weight:0.001, learning_rate:0.0005, pred_len:12  
+mse:0.10882720351219177, mae:0.21563711762428284
+
+window_size:12, contrastive_weight:0.001, learning_rate:0.001, pred_len:12  
+mse:0.12063278257846832, mae:0.22815656661987305
+
+window_size:12, contrastive_weight:0.01, learning_rate:0.0001, pred_len:12  
+mse:0.11459006369113922, mae:0.22221817076206207
+
+window_size:12, contrastive_weight:0.01, learning_rate:0.0005, pred_len:12  
+mse:0.112920381128788, mae:0.21888943016529083
+
+window_size:12, contrastive_weight:0.01, learning_rate:0.001, pred_len:12  
+mse:0.12200239300727844, mae:0.2289605587720871
+
+window_size:18, contrastive_weight:0.0001, learning_rate:0.0001, pred_len:12  
+mse:0.11137817800045013, mae:0.2230524867773056
+
+window_size:18, contrastive_weight:0.0001, learning_rate:0.0005, pred_len:12  
+mse:0.11031070351600647, mae:0.22060632705688477
+
+window_size:18, contrastive_weight:0.0001, learning_rate:0.001, pred_len:12  
+mse:0.12090565264225006, mae:0.22810794413089752
+
+window_size:18, contrastive_weight:0.001, learning_rate:0.0001, pred_len:12  
+mse:0.10974566638469696, mae:0.2182130515575409
+
+window_size:18, contrastive_weight:0.001, learning_rate:0.0005, pred_len:12  
+mse:0.10982372611761093, mae:0.2153157889842987
+
+window_size:18, contrastive_weight:0.001, learning_rate:0.001, pred_len:12  
+mse:0.1217341423034668, mae:0.227858304977417
+
+window_size:18, contrastive_weight:0.01, learning_rate:0.0001, pred_len:12  
+mse:0.11670438200235367, mae:0.2300211787223816
+
+window_size:18, contrastive_weight:0.01, learning_rate:0.0005, pred_len:12  
+mse:0.1131713017821312, mae:0.22201304137706757
+
+window_size:18, contrastive_weight:0.01, learning_rate:0.001, pred_len:12  
+mse:0.1253465861082077, mae:0.23309555649757385
+
+window_size:24, contrastive_weight:0.0001, learning_rate:0.0001, pred_len:12  
+mse:0.1135113462805748, mae:0.22556661069393158
+
+window_size:24, contrastive_weight:0.0001, learning_rate:0.0005, pred_len:12  
+mse:0.113099105656147, mae:0.2259543240070343
+
+window_size:24, contrastive_weight:0.0001, learning_rate:0.001, pred_len:12  
+mse:0.12220332771539688, mae:0.23012743890285492
+
+window_size:24, contrastive_weight:0.001, learning_rate:0.0001, pred_len:12  
+mse:0.11281397938728333, mae:0.22388778626918793
+
+window_size:24, contrastive_weight:0.001, learning_rate:0.0005, pred_len:12  
+mse:0.11200705915689468, mae:0.22140687704086304
+
+window_size:24, contrastive_weight:0.001, learning_rate:0.001, pred_len:12  
+mse:0.12055759131908417, mae:0.22966386377811432
+
+window_size:24, contrastive_weight:0.01, learning_rate:0.0001, pred_len:12  
+mse:0.11528994143009186, mae:0.22660119831562042
+
+window_size:24, contrastive_weight:0.01, learning_rate:0.0005, pred_len:12  
+mse:0.11309350281953812, mae:0.21897515654563904
+
+window_size:24, contrastive_weight:0.01, learning_rate:0.001, pred_len:12  
+mse:0.12210126966238022, mae:0.23034322261810303
+
+
+## 快速测试
+
+
+window_size:1, contrastive_weight:1e-06, learning_rate:0.001, pred_len:12  
+mse:0.108528733253479, mae:0.2162354439496994
+
+window_size:1, contrastive_weight:1e-05, learning_rate:0.001, pred_len:12  
+mse:0.10642029345035553, mae:0.2101578414440155
+
+window_size:1, contrastive_weight:5e-05, learning_rate:0.001, pred_len:12  
+mse:0.10816776752471924, mae:0.2107905149459839
+
+window_size:1, contrastive_weight:0.0001, learning_rate:0.001, pred_len:12  
+mse:0.10820404440164566, mae:0.21229596436023712
+
+window_size:2, contrastive_weight:1e-06, learning_rate:0.001, pred_len:12  
+mse:0.1045922338962555, mae:0.2082938402891159
+
+window_size:2, contrastive_weight:1e-05, learning_rate:0.001, pred_len:12  
+mse:0.10386902838945389, mae:0.2070102095603943
+
+window_size:2, contrastive_weight:5e-05, learning_rate:0.001, pred_len:12  
+mse:0.1046365424990654, mae:0.2084295153617859
+
+window_size:2, contrastive_weight:0.0001, learning_rate:0.001, pred_len:12  
+mse:0.1022404134273529, mae:0.20623591542243958
+
+# 在最优区域进行超精细搜索
+window_size:2, contrastive_weight:2e-05, learning_rate:0.0008, pred_len:12  
+mse:0.11405326426029205, mae:0.22011832892894745
+
+window_size:2, contrastive_weight:2e-05, learning_rate:0.001, pred_len:12  
+mse:0.1062697246670723, mae:0.2119600474834442
+
+window_size:2, contrastive_weight:2e-05, learning_rate:0.0012, pred_len:12  
+mse:0.1016886830329895, mae:0.2068641632795334
+
+window_size:2, contrastive_weight:3e-05, learning_rate:0.0008, pred_len:12  
+mse:0.11163769662380219, mae:0.2174224853515625
+
+window_size:2, contrastive_weight:3e-05, learning_rate:0.001, pred_len:12  
+mse:0.10391378402709961, mae:0.20909368991851807
+
+window_size:2, contrastive_weight:3e-05, learning_rate:0.0012, pred_len:12  
+mse:0.10343141108751297, mae:0.208662211894989
+
+window_size:2, contrastive_weight:5e-05, learning_rate:0.0008, pred_len:12  
+mse:0.11388882994651794, mae:0.21879081428050995
+
+window_size:2, contrastive_weight:5e-05, learning_rate:0.001, pred_len:12  
+mse:0.1046365424990654, mae:0.2084295153617859
+
+window_size:2, contrastive_weight:5e-05, learning_rate:0.0012, pred_len:12  
+mse:0.09958842396736145, mae:0.20533674955368042
+
+window_size:2, contrastive_weight:8e-05, learning_rate:0.0008, pred_len:12  
+mse:0.11442694067955017, mae:0.21934735774993896
+
+window_size:2, contrastive_weight:8e-05, learning_rate:0.001, pred_len:12  
+mse:0.10442677140235901, mae:0.20891644060611725
+
+window_size:2, contrastive_weight:8e-05, learning_rate:0.0012, pred_len:12  
+mse:0.10338857024908066, mae:0.20719993114471436
+
+window_size:2, contrastive_weight:0.0001, learning_rate:0.0008, pred_len:12  
+mse:0.11379562318325043, mae:0.21896915137767792
+
+window_size:2, contrastive_weight:0.0001, learning_rate:0.001, pred_len:12  
+mse:0.1022404134273529, mae:0.20623591542243958
+
+window_size:2, contrastive_weight:0.0001, learning_rate:0.0012, pred_len:12  
+mse:0.10802017897367477, mae:0.215602308511734
+
+window_size:3, contrastive_weight:2e-05, learning_rate:0.0008, pred_len:12  
+mse:0.10626555979251862, mae:0.20964978635311127
+
+window_size:3, contrastive_weight:2e-05, learning_rate:0.001, pred_len:12  
+mse:0.10320055484771729, mae:0.20916517078876495
+
+window_size:3, contrastive_weight:2e-05, learning_rate:0.0012, pred_len:12  
+mse:0.12128914892673492, mae:0.22895167768001556
+
+window_size:3, contrastive_weight:3e-05, learning_rate:0.0008, pred_len:12  
+mse:0.10466549545526505, mae:0.20849324762821198
+
+window_size:3, contrastive_weight:3e-05, learning_rate:0.001, pred_len:12  
+mse:0.10309670865535736, mae:0.20696964859962463
+
+window_size:3, contrastive_weight:3e-05, learning_rate:0.0012, pred_len:12  
+mse:0.12218459695577621, mae:0.2284477800130844
+
+window_size:3, contrastive_weight:5e-05, learning_rate:0.0008, pred_len:12  
+mse:0.10521277040243149, mae:0.20872417092323303
+
+window_size:3, contrastive_weight:5e-05, learning_rate:0.001, pred_len:12  
+mse:0.1038203239440918, mae:0.20808854699134827
+
+window_size:3, contrastive_weight:5e-05, learning_rate:0.0012, pred_len:12  
+mse:0.12251399457454681, mae:0.22897227108478546
+
+window_size:3, contrastive_weight:8e-05, learning_rate:0.0008, pred_len:12  
+mse:0.10692303627729416, mae:0.21141482889652252
+
+window_size:3, contrastive_weight:8e-05, learning_rate:0.001, pred_len:12  
+mse:0.10919565707445145, mae:0.21232636272907257
+
+window_size:3, contrastive_weight:8e-05, learning_rate:0.0012, pred_len:12  
+mse:0.12058893591165543, mae:0.22742067277431488
+
+window_size:3, contrastive_weight:0.0001, learning_rate:0.0008, pred_len:12  
+mse:0.10708564519882202, mae:0.21203210949897766
+
+window_size:3, contrastive_weight:0.0001, learning_rate:0.001, pred_len:12  
+mse:0.10218062251806259, mae:0.20727668702602386
+
+window_size:3, contrastive_weight:0.0001, learning_rate:0.0012, pred_len:12  
+mse:0.11767950654029846, mae:0.2237788289785385
+
+window_size:2, contrastive_weight:5e-05, learning_rate:0.0012, pred_len:12  
+mse:0.09958842396736145, mae:0.20533674955368042
+
+window_size:2, contrastive_weight:5e-05, learning_rate:0.0012, pred_len:12  
+mse:0.10762850940227509, mae:0.212994784116745
+
+window_size:2, contrastive_weight:5e-05, learning_rate:0.0012, pred_len:12  
+mse:0.11476762592792511, mae:0.22295838594436646
+
+window_size:2, contrastive_weight:5e-05, learning_rate:0.0012, pred_len:12  
+mse:0.10893434286117554, mae:0.21475757658481598
+

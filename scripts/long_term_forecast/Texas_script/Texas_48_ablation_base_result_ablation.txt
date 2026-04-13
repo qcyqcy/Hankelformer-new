@@ -1,0 +1,3 @@
+ABLATION_base - pred_len:48, learning_rate:0.0003, data:Texas_Freeze  
+mse:0.4072909653186798, mae:0.4738447070121765, dtw:Not calculated
+

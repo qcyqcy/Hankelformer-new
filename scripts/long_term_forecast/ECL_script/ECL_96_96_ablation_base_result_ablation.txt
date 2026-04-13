@@ -1,0 +1,3 @@
+ABLATION_base - pred_len:96, learning_rate:0.0005, data:custom  
+mse:0.16278719902038574, mae:0.2629542350769043, dtw:Not calculated
+

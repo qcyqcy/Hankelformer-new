@@ -1,0 +1,6 @@
+long_term_forecast_ETTh2_96_96_iTransformer_ETTh2_ftM_sl96_ll48_pl96_dm128_nh8_el2_dl1_df128_expand2_dc4_fc3_ebtimeF_dtTrue_Exp_0  
+mse:0.300402969121933, mae:0.34961822628974915, dtw:Not calculated
+
+long_term_forecast_ETTh2_96_96_iTransformer_ETTh2_ftM_sl96_ll48_pl96_dm128_nh8_el2_dl1_df128_expand2_dc4_fc3_ebtimeF_dtTrue_Exp_0  
+mse:0.300402969121933, mae:0.34961822628974915, dtw:Not calculated
+

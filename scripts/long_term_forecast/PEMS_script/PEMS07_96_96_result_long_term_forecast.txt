@@ -1,0 +1,27 @@
+window_size:1, contrastive_weight:0.03, learning_rate:0.001, pred_len:96  
+mse:0.11171861737966537, mae:0.2143985480070114
+
+long_term_forecast_PEMS07_96_96_iTransformer_PEMS_ftM_sl96_ll48_pl96_dm512_nh8_el4_dl1_df512_expand2_dc4_fc1_ebtimeF_dtTrue_Exp_0  
+mse:1.9522721767425537, mae:1.1261012554168701, dtw:Not calculated
+
+long_term_forecast_PEMS07_96_96_iTransformer_PEMS_ftM_sl96_ll48_pl96_dm512_nh8_el2_dl1_df512_expand2_dc4_fc1_ebtimeF_dtTrue_Exp_0  
+mse:0.24120107293128967, mae:0.3358345031738281, dtw:Not calculated
+
+long_term_forecast_PEMS07_96_96_PatchTST_PEMS_ftM_sl96_ll48_pl96_dm256_nh8_el2_dl1_df256_expand2_dc4_fc3_ebtimeF_dtTrue_Exp_0  
+mse:0.6039931774139404, mae:0.5649505257606506, dtw:Not calculated
+
+long_term_forecast_PEMS07_96_96_TimeMixer_PEMS_ftM_sl96_ll0_pl96_dm16_nh8_el3_dl1_df32_expand2_dc4_fc3_ebtimeF_dtTrue_Exp_0  
+mse:0.27803269028663635, mae:0.3413749933242798, dtw:Not calculated
+
+long_term_forecast_PEMS07_96_96_TiDE_PEMS_ftM_sl96_ll48_pl96_dm256_nh8_el2_dl2_df256_expand2_dc4_fc1_ebtimeF_dtTrue_test_0  
+mse:1.2524927854537964, mae:0.8579666614532471, dtw:Not calculated
+
+long_term_forecast_PEMS07_96_96_Hankelformer_base_PEMS_ftM_sl96_ll48_pl96_dm512_nh8_el2_dl1_df512_expand2_dc4_fc1_ebtimeF_dtTrue_Exp_0  
+mse:0.15327294170856476, mae:0.2581958770751953, dtw:Not calculated
+
+window_size:1, contrastive_weight:0.0, learning_rate:0.001, pred_len:96  
+mse:0.14348819851875305, mae:0.2393968254327774
+
+window_size:1, contrastive_weight:0.03, learning_rate:0.001, pred_len:96  
+mse:0.15405067801475525, mae:0.26148486137390137
+

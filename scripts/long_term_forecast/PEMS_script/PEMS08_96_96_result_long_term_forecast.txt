@@ -1,0 +1,21 @@
+window_size:4, contrastive_weight:0.05, learning_rate:0.001, pred_len:96  
+mse:0.2113324999809265, mae:0.25887343287467957
+
+window_size:4, contrastive_weight:0.05, learning_rate:0.001, pred_len:96  
+mse:0.21111424267292023, mae:0.25868529081344604
+
+long_term_forecast_PEMS08_96_96_iTransformer_PEMS_ftM_sl96_ll48_pl96_dm512_nh8_el4_dl1_df512_expand2_dc4_fc1_ebtimeF_dtTrue_Exp_0  
+mse:2.155595541000366, mae:1.2270973920822144, dtw:Not calculated
+
+long_term_forecast_PEMS08_96_96_PatchTST_PEMS_ftM_sl96_ll48_pl96_dm256_nh8_el2_dl1_df256_expand2_dc4_fc3_ebtimeF_dtTrue_Exp_0  
+mse:0.7502263188362122, mae:0.610018253326416, dtw:Not calculated
+
+long_term_forecast_PEMS08_96_96_iTransformer_PEMS_ftM_sl96_ll48_pl96_dm512_nh8_el4_dl1_df512_expand2_dc4_fc1_ebtimeF_dtTrue_Exp_0  
+mse:0.3933791220188141, mae:0.4106258749961853, dtw:Not calculated
+
+long_term_forecast_PEMS08_96_96_TiDE_PEMS_ftM_sl96_ll48_pl96_dm256_nh8_el2_dl2_df256_expand2_dc4_fc1_ebtimeF_dtTrue_test_0  
+mse:1.1718319654464722, mae:0.808074951171875, dtw:Not calculated
+
+long_term_forecast_PEMS08_96_96_TimeMixer_PEMS_ftM_sl96_ll0_pl96_dm16_nh8_el3_dl1_df32_expand2_dc4_fc3_ebtimeF_dtTrue_Exp_0  
+mse:0.4345805048942566, mae:0.4321828782558441, dtw:Not calculated
+

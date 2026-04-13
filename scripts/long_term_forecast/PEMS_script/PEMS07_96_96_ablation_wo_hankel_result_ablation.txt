@@ -1,0 +1,3 @@
+ABLATION_wo_hankel - noise_std:0.01, contrastive_weight:0.03, learning_rate:0.001, pred_len:96, data:PEMS  
+mse:0.1595364212989807, mae:0.2688145935535431
+

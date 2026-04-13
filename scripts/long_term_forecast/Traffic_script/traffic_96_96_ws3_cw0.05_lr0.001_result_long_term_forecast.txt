@@ -1,0 +1,3 @@
+window_size:3, contrastive_weight:0.05, learning_rate:0.001, pred_len:96  
+mse:0.47947534918785095, mae:0.3541392683982849
+

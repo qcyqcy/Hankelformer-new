@@ -1,0 +1,65 @@
+
+
+window_size:18, contrastive_weight:0.01, learning_rate:0.0005, pred_len:192  
+mse:0.1587727665901184, mae:0.2540067434310913
+
+window_size:18, contrastive_weight:0.03, learning_rate:0.0005, pred_len:192  
+mse:0.16434474289417267, mae:0.26471516489982605
+
+window_size:18, contrastive_weight:0.05, learning_rate:0.0005, pred_len:192  
+mse:0.1692020148038864, mae:0.27015313506126404
+
+window_size:18, contrastive_weight:0.07, learning_rate:0.0005, pred_len:192  
+mse:0.16688667237758636, mae:0.2676929235458374
+
+window_size:18, contrastive_weight:0.1, learning_rate:0.0005, pred_len:192  
+mse:0.1619502454996109, mae:0.2629515528678894
+
+window_size:20, contrastive_weight:0.01, learning_rate:0.0005, pred_len:192  
+mse:0.15968196094036102, mae:0.2572762370109558
+
+window_size:20, contrastive_weight:0.03, learning_rate:0.0005, pred_len:192  
+mse:0.16333867609500885, mae:0.2613826394081116
+
+window_size:20, contrastive_weight:0.05, learning_rate:0.0005, pred_len:192  
+mse:0.16785794496536255, mae:0.26911959052085876
+
+window_size:20, contrastive_weight:0.07, learning_rate:0.0005, pred_len:192  
+mse:0.1645735800266266, mae:0.2657422721385956
+
+window_size:20, contrastive_weight:0.1, learning_rate:0.0005, pred_len:192  
+mse:0.16494755446910858, mae:0.2653578817844391
+
+window_size:22, contrastive_weight:0.01, learning_rate:0.0005, pred_len:192  
+mse:0.16970734298229218, mae:0.268164724111557
+
+window_size:22, contrastive_weight:0.03, learning_rate:0.0005, pred_len:192  
+mse:0.170440211892128, mae:0.2696073651313782
+
+window_size:22, contrastive_weight:0.05, learning_rate:0.0005, pred_len:192  
+mse:0.1688842475414276, mae:0.2700832784175873
+
+window_size:22, contrastive_weight:0.07, learning_rate:0.0005, pred_len:192  
+mse:0.1691606193780899, mae:0.26978591084480286
+
+window_size:22, contrastive_weight:0.1, learning_rate:0.0005, pred_len:192  
+mse:0.16890153288841248, mae:0.2705950438976288
+
+window_size:24, contrastive_weight:0.01, learning_rate:0.0005, pred_len:192  
+mse:0.1591951847076416, mae:0.254825234413147
+
+window_size:24, contrastive_weight:0.03, learning_rate:0.0005, pred_len:192  
+mse:0.16310851275920868, mae:0.26163050532341003
+
+window_size:24, contrastive_weight:0.05, learning_rate:0.0005, pred_len:192  
+mse:0.16471673548221588, mae:0.26391515135765076
+
+window_size:18, contrastive_weight:0.005, learning_rate:0.0005, pred_len:192  
+mse:0.16369004547595978, mae:0.2617410719394684
+
+window_size:20, contrastive_weight:0.005, learning_rate:0.0005, pred_len:192  
+mse:0.15908756852149963, mae:0.25469544529914856
+
+window_size:24, contrastive_weight:0.01, learning_rate:0.0005, pred_len:192  
+mse:0.1591951847076416, mae:0.254825234413147
+
