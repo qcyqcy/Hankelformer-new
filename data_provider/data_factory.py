@@ -1,23 +1,13 @@
-from data_provider.data_loader import Dataset_ETT_hour, Dataset_ETT_minute, Dataset_Custom, PSMSegLoader,Dataset_Texas_Freeze,Dataset_Northwest_Heatwave,Dataset_PEMS,Dataset_Zhengzhou_Precipitation,Dataset_Italy_Heatwave,Dataset_Custom_Weather
+from data_provider.data_loader import Dataset_Custom,Dataset_Texas_Freeze,Dataset_Northwest_Heatwave,Dataset_PEMS
 
 from data_provider.uea import collate_fn
 from torch.utils.data import DataLoader
 
 data_dict = {
-    'ETTh1': Dataset_ETT_hour,
-    'ETTh2': Dataset_ETT_hour,
-    'ETTm1': Dataset_ETT_minute,
-    'ETTm2': Dataset_ETT_minute,
     'custom': Dataset_Custom,
-    'PSM': PSMSegLoader,
     'Texas_Freeze': Dataset_Texas_Freeze,
     'Northwest_Heatwave':Dataset_Northwest_Heatwave,
     'PEMS':Dataset_PEMS,
-    'Zhengzhou':Dataset_Zhengzhou_Precipitation,
-    'Italy':Dataset_Italy_Heatwave,
-    'custom_weather':Dataset_Custom_Weather,
-    
-
 }
 
 
