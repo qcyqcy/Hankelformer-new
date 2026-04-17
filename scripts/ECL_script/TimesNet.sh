@@ -1,10 +1,10 @@
-export CUDA_VISIBLE_DEVICES=4
+export CUDA_VISIBLE_DEVICES=0
 
 model_name=TimesNet
 
 
 run_path="../../run.py"
-root_path="../../dataset/ELC/"
+root_path="../../dataset/ECL/"
 
 python -u $run_path \
   --task_name long_term_forecast \

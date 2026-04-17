@@ -1,11 +1,11 @@
-export CUDA_VISIBLE_DEVICES=1
+export CUDA_VISIBLE_DEVICES=0
 
 model_name=TimeMixer
 
 
 
 run_path="../../run.py"
-root_path="../../dataset/ELC/"
+root_path="../../dataset/ECL/"
 
 seq_len=96
 e_layers=3

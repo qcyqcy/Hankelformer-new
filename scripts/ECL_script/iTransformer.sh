@@ -3,7 +3,7 @@ export CUDA_VISIBLE_DEVICES=0
 model_name=iTransformer
 
 run_path="../../run.py"
-root_path="../../dataset/ELC/"
+root_path="../../dataset/ECL/"
 
 
 python -u $run_path \

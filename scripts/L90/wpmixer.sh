@@ -1,8 +1,4 @@
-# 官方weather
-
-
-# Set the GPU to use
-export CUDA_VISIBLE_DEVICES=1
+export CUDA_VISIBLE_DEVICES=0
 
 # Model name
 model_name=WPMixer

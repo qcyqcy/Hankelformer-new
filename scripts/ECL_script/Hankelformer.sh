@@ -5,8 +5,7 @@ model_name=Hankelformer
 
 # 更新 run.py 和 dataset 的路径
 run_path="../../run.py"
-root_path="../../dataset/ELC/"
-
+root_path="../../dataset/ECL/"
 
 # # 96-96 bingo
 # # window_size:18, contrastive_weight:0.03, learning_rate:0.0005, pred_len:96  
