@@ -4,8 +4,8 @@ model_name=TimeMixer
 
 
 
-run_path="/share/home/qinchengyang/Time-Series-Library/run.py"
-root_path="/share/home/qinchengyang/Time-Series-Library/dataset/electricity"
+run_path="./run.py"
+root_path="./dataset/ELC/"
 
 seq_len=96
 e_layers=3
