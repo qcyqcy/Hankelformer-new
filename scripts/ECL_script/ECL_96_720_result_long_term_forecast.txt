@@ -1,6 +1,0 @@
-window_size:32, contrastive_weight:0.1, learning_rate:0.0005, pred_len:720  
-mse:0.20186744630336761, mae:0.2980117201805115
-
-window_size:32, contrastive_weight:0.1, learning_rate:0.0005, pred_len:720  
-mse:0.20186744630336761, mae:0.2980117201805115
-

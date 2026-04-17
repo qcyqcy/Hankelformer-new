@@ -12,10 +12,13 @@ d_ff=64
 batch_size=8
 
 
-python -u run.py \
+run_path="../../run.py"
+root_path="../../dataset/traffic"
+
+python -u $run_path \
   --task_name long_term_forecast \
   --is_training 1 \
-  --root_path ./dataset/traffic/ \
+  --root_path $root_path \
   --data_path traffic.csv \
   --model_id Traffic_$seq_len'_'96 \
   --model $model_name \
@@ -40,10 +43,10 @@ python -u run.py \
   --down_sampling_method avg \
   --down_sampling_window $down_sampling_window
 
-python -u run.py \
+python -u $run_path \
   --task_name long_term_forecast \
   --is_training 1 \
-  --root_path ./dataset/traffic/ \
+  --root_path $root_path \
   --data_path traffic.csv \
   --model_id Traffic_$seq_len'_'192 \
   --model $model_name \
@@ -68,10 +71,10 @@ python -u run.py \
   --down_sampling_method avg \
   --down_sampling_window $down_sampling_window
 
-python -u run.py \
+python -u $run_path \
   --task_name long_term_forecast \
   --is_training 1 \
-  --root_path ./dataset/traffic/ \
+  --root_path $root_path \
   --data_path traffic.csv \
   --model_id Traffic_$seq_len'_'336 \
   --model $model_name \
@@ -96,10 +99,10 @@ python -u run.py \
   --down_sampling_method avg \
   --down_sampling_window $down_sampling_window
 
-python -u run.py \
+python -u $run_path \
   --task_name long_term_forecast \
   --is_training 1 \
-  --root_path ./dataset/traffic/ \
+  --root_path $root_path \
   --data_path traffic.csv \
   --model_id Traffic_$seq_len'_'720 \
   --model $model_name \

@@ -2,8 +2,9 @@ export CUDA_VISIBLE_DEVICES=1
 
 model_name=iTransformer
 
-run_path="/share/home/qinchengyang/Time-Series-Library/run.py"
-root_path="/share/home/qinchengyang/Time-Series-Library/dataset/PEMS"
+run_path="../../run.py"
+root_path="../../dataset/PEMS"
+
 
 
 # python -u $run_path \

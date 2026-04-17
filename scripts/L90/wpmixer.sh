@@ -6,8 +6,8 @@ export CUDA_VISIBLE_DEVICES=1
 
 # Model name
 model_name=WPMixer
-run_path="/share/home/qinchengyang/Time-Series-Library/run.py"
-root_path="/share/home/qinchengyang/Time-Series-Library/dataset/L90"
+run_path="../../run.py"
+root_path="../../dataset/L90"
 # # Datasets and prediction lengths
 # dataset=custom
 # # seq_lens=(96 96 96 96)

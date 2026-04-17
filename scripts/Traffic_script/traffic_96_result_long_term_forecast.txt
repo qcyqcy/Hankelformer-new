@@ -1,3 +1,0 @@
-long_term_forecast_traffic_96_WPMixer_custom_ftM_sl96_ll48_pl96_dm64_nh8_el2_dl1_df2048_expand2_dc4_fc1_ebtimeF_dtTrue_test_0  
-mse:0.46514007449150085, mae:0.29903706908226013, dtw:Not calculated
-

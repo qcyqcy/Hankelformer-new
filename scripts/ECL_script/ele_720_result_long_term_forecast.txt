@@ -1,3 +1,0 @@
-long_term_forecast_ele_720_WPMixer_custom_ftM_sl96_ll48_pl720_dm256_nh8_el2_dl1_df2048_expand2_dc4_fc1_ebtimeF_dtTrue_test_0  
-mse:0.2246328592300415, mae:0.3106810450553894, dtw:Not calculated
-

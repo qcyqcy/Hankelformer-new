@@ -1,13 +1,11 @@
-# 官方weather
-
-
 # Set the GPU to use
 export CUDA_VISIBLE_DEVICES=0
 
 # Model name
 model_name=WPMixer
-run_path="/share/home/qinchengyang/Time-Series-Library/run.py"
-root_path="/share/home/qinchengyang/Time-Series-Library/dataset/Texas_Freeze"
+run_path="../../run.py"
+root_path="../../dataset/Texas_Freeze"
+
 # Datasets and prediction lengths
 dataset=Texas_Freeze
 seq_lens=(96 96 96 96)

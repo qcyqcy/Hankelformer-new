@@ -4,8 +4,8 @@ export CUDA_VISIBLE_DEVICES=1
 model_name=iTransformer
 
 # 更新 run.py 和 dataset 的路径
-run_path="/share/home/qinchengyang/Time-Series-Library/run.py"
-root_path="/share/home/qinchengyang/Time-Series-Library/dataset/L90"
+run_path="../../run.py"
+root_path="../../dataset/L90"
 
 # # 无噪声
 # python -u $run_path \

@@ -1,6 +1,0 @@
-long_term_forecast_Texas_96_WPMixer_Texas_Freeze_ftM_sl96_ll48_pl96_dm128_nh8_el2_dl1_df2048_expand2_dc4_fc1_ebtimeF_dtTrue_test_0  
-mse:1.0862762928009033, mae:0.8049443364143372, dtw:Not calculated
-
-long_term_forecast_Texas_96_WPMixer_Texas_Freeze_ftM_sl96_ll48_pl96_dm128_nh8_el2_dl1_df2048_expand2_dc4_fc1_ebtimeF_dtTrue_test_0  
-mse:1.0862762928009033, mae:0.8049443364143372, dtw:Not calculated
-

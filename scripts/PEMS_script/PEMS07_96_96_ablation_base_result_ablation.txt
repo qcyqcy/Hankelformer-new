@@ -1,3 +1,0 @@
-ABLATION_base - pred_len:96, learning_rate:0.001, data:PEMS  
-mse:0.14348819851875305, mae:0.2393968254327774, dtw:Not calculated
-

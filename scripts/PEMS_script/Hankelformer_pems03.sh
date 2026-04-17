@@ -3,9 +3,9 @@ export CUDA_VISIBLE_DEVICES=0
 model_name=Hankelformer
 
 # 更新 run.py 和 dataset 的路径
+run_path="../../run.py"
+root_path="../../dataset/PEMS"
 
-run_path="/share/home/qinchengyang/Time-Series-Library/run.py"
-root_path="/share/home/qinchengyang/Time-Series-Library/dataset/PEMS"
 
 
 

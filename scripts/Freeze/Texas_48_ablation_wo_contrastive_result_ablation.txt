@@ -1,3 +1,0 @@
-ABLATION_wo_contrastive - window_size:10, contrastive_weight:0.0, learning_rate:0.0003, pred_len:48, data:Texas_Freeze  
-mse:0.49831125140190125, mae:0.5280839204788208
-

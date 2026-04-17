@@ -4,8 +4,8 @@ model_name=TimeMixer
 
 
 
-run_path="/share/home/qinchengyang/Time-Series-Library/run.py"
-root_path="/share/home/qinchengyang/Time-Series-Library/dataset/PEMS"
+run_path="../../run.py"
+root_path="../../dataset/PEMS"
 
 
 e_layers=3

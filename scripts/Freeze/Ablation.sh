@@ -1,8 +1,8 @@
 export CUDA_VISIBLE_DEVICES=0
 
 
-run_path="/share/home/qinchengyang/Time-Series-Library/run.py"
-root_path="/share/home/qinchengyang/Time-Series-Library/dataset/Texas_Freeze"
+run_path="../../run.py"
+root_path="../../dataset/Texas_Freeze"
 
 
 # Hankelformer_base

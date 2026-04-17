@@ -3,8 +3,8 @@ export CUDA_VISIBLE_DEVICES=1
 model_name=PatchTST
 
 # 变量赋值不能有空格
-run_path="/share/home/qinchengyang/Time-Series-Library/run.py"
-root_path="/share/home/qinchengyang/Time-Series-Library/dataset/Northwest_Heatwave"
+run_path="../../run.py"
+root_path="../../dataset/Northwest_Heatwave"
 
 # 12
 python -u $run_path \

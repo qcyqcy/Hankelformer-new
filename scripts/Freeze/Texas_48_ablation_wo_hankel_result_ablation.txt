@@ -1,3 +1,0 @@
-ABLATION_wo_hankel - noise_std:0.005, contrastive_weight:0.01, learning_rate:0.0003, pred_len:48, data:Texas_Freeze  
-mse:0.5238567590713501, mae:0.5465745329856873
-
