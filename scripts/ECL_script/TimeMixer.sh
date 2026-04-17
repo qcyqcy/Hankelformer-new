@@ -4,8 +4,8 @@ model_name=TimeMixer
 
 
 
-run_path="./run.py"
-root_path="./dataset/ELC/"
+run_path="../../run.py"
+root_path="../../dataset/ELC/"
 
 seq_len=96
 e_layers=3

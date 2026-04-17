@@ -2,10 +2,14 @@ export CUDA_VISIBLE_DEVICES=4
 
 model_name=TimesNet
 
-python -u run.py \
+
+run_path="../../run.py"
+root_path="../../dataset/ELC/"
+
+python -u $run_path \
   --task_name long_term_forecast \
   --is_training 1 \
-  --root_path ./dataset/ELC/ \
+  --root_path $root_path \
   --data_path electricity.csv \
   --model_id ECL_96_96 \
   --model $model_name \
@@ -26,10 +30,10 @@ python -u run.py \
   --des 'Exp' \
   --itr 1
 
-python -u run.py \
+python -u $run_path \
   --task_name long_term_forecast \
   --is_training 1 \
-  --root_path ./dataset/ELC/ \
+  --root_path $root_path \
   --data_path electricity.csv \
   --model_id ECL_96_192 \
   --model $model_name \
@@ -50,10 +54,10 @@ python -u run.py \
   --des 'Exp' \
   --itr 1
 
-python -u run.py \
+python -u $run_path \
   --task_name long_term_forecast \
   --is_training 1 \
-  --root_path ./dataset/ELC/ \
+  --root_path $root_path \
   --data_path electricity.csv \
   --model_id ECL_96_336 \
   --model $model_name \
@@ -74,10 +78,10 @@ python -u run.py \
   --des 'Exp' \
   --itr 1
 
-python -u run.py \
+python -u $run_path \
   --task_name long_term_forecast \
   --is_training 1 \
-  --root_path ./dataset/ELC/ \
+  --root_path $root_path \
   --data_path electricity.csv \
   --model_id ECL_96_720 \
   --model $model_name \

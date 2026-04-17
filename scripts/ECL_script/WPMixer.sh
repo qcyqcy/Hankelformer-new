@@ -5,8 +5,8 @@ export CUDA_VISIBLE_DEVICES=0
 # Model name
 model_name=WPMixer
 
-run_path="./run.py"
-root_path="./dataset/ELC/"
+run_path="../../run.py"
+root_path="../../dataset/ELC/"
 
 
 

@@ -4,8 +4,8 @@ export CUDA_VISIBLE_DEVICES=0
 model_name=Hankelformer
 
 # 更新 run.py 和 dataset 的路径
-run_path="./run.py"
-root_path="./dataset/ELC/"
+run_path="../../run.py"
+root_path="../../dataset/ELC/"
 
 
 # # 96-96 bingo
