@@ -1,4 +1,8 @@
-dataset/
+*.csv
+*.json
+*.html
+*.npz
+*.zip
 __pycache__/
 *.pyc
 checkpoints/
