@@ -1,6 +1,6 @@
 import os
 import torch
-from models import TimesNet, PatchTST, iTransformer, TiDE, TimeMixer, WPMixer, Hankelformer,Hankelformer_base,Hankelformer_without_hankel,Hankelformer_without_Contrastive
+from models import TimesNet, PatchTST, iTransformer, TiDE, TimeMixer, WPMixer, Hankelformer, Hankelformer_base, Hankelformer_without_hankel, Hankelformer_without_Contrastive, NaiveBaseline
 
 class Exp_Basic(object):
     def __init__(self, args):
@@ -16,7 +16,7 @@ class Exp_Basic(object):
             'Hankelformer_base':Hankelformer_base,
             'Hankelformer_without_hankel':Hankelformer_without_hankel,
             'Hankelformer_without_Contrastive':Hankelformer_without_Contrastive,
-            
+            'NaiveBaseline': NaiveBaseline,
         }
         if args.model == 'Mamba':
             print('Please make sure you have successfully installed mamba_ssm')
