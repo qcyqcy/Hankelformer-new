@@ -1,10 +1,11 @@
-from data_provider.data_loader import Dataset_Custom, Dataset_Texas_Freeze, Dataset_Northwest_Heatwave, Dataset_PEMS
+from data_provider.data_loader import Dataset_Custom, Dataset_Texas_Freeze, Dataset_Northwest_Heatwave, Dataset_Antarctic_Heat, Dataset_PEMS
 from torch.utils.data import DataLoader
 
 data_dict = {
     'custom': Dataset_Custom,
     'Texas_Freeze': Dataset_Texas_Freeze,
     'Northwest_Heatwave': Dataset_Northwest_Heatwave,
+    'Antarctic_Heat': Dataset_Antarctic_Heat,
     'PEMS': Dataset_PEMS,
 }
 
