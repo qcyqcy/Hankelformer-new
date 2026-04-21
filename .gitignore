@@ -1,7 +1,9 @@
-*.csv
-*.json
-*.html
-*.npz
+/dataset/ECL/
+/dataset/L90/
+/dataset/PEMS/
+/dataset/traffic/
+/dataset/WEATHER-5K/
+
 *.zip
 __pycache__/
 *.pyc
