@@ -5,12 +5,41 @@
     python compute_extreme_metrics.py --pred_path <pred.npy路径> --true_path <true.npy路径>
 
 示例:
-    python compute_extreme_metrics.py --pred_path "test_results/.../pred.npy" --true_path "test_results/.../true.npy"
+    python compute_extreme_metrics.py --pred_path "results/.../pred.npy" --true_path "results/.../true.npy"
 
-注意:
-    pred.npy 和 true.npy 必须是 inverse transform 后的原始尺度数据。
-    运行测试时请加上 --inverse 参数，否则 peak_amplitude_error（峰值振幅误差）
-    将无法得到有物理意义的数值（°C）。
+================================================================================
+                              ⚠️ 重要提醒 ⚠️
+================================================================================
+
+本脚本专用于极端气温预测任务的评估。
+
+pred.npy 和 true.npy 必须是原始尺度数据（inverse transform 后的数据）。
+如果使用归一化数据，以下指标将无法得到有物理意义的数值：
+
+    - peak_max_error: 将显示归一化后的误差，无实际物理单位
+    - peak_min_error: 将显示归一化后的误差，无实际物理单位
+    - peak_range_error: 将显示归一化后的误差，无实际物理单位
+    - extreme_MAE: 将显示归一化后的误差，无法评估真实的℃偏差
+
+不受归一化影响的指标：
+    - SEDI: 基于相对排名计算，不受影响
+    - exceedance_skill: 基于比例计算，不受影响
+
+================================================================================
+                              如何确保数据正确？
+================================================================================
+
+运行训练/测试脚本时，必须加上 --inverse 参数：
+
+    python run.py ... --inverse
+
+这样保存的 pred.npy 和 true.npy 才是原始尺度数据。
+
+或者，在测试完成后，检查数据的数值范围：
+    - 归一化数据：通常范围在 [-2, 2] 或 [0, 1] 左右
+    - 原始数据：气温数据通常在 -30~50 (℃) 范围内
+
+================================================================================
 """
 
 import argparse
