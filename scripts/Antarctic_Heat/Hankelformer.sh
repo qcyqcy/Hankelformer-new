@@ -55,16 +55,31 @@ batch_size=64
 itr=1
 train_epochs=20
 
+# 日志目录
+log_dir="../../logs/Antarctic_Heat"
+if [ ! -d "$log_dir" ]; then
+  mkdir -p "$log_dir"
+fi
+
+# 主日志文件
+main_log="$log_dir/training_log_$(date +%Y%m%d_%H%M%S).txt"
+echo "Main log file: $main_log"
+
 for window_size in "${window_sizes[@]}"; do
   for contrastive_weight in "${contrastive_weights[@]}"; do
     for learning_rate in "${learning_rates[@]}"; do
-      echo "=========================================="
-      echo "Running experiment:"
-      echo "  window_size=$window_size"
-      echo "  contrastive_weight=$contrastive_weight"
-      echo "  learning_rate=$learning_rate"
-      echo "=========================================="
+      # 为每个实验生成唯一的日志文件名
+      exp_log="$log_dir/ws${window_size}_cw${contrastive_weight}_lr${learning_rate}.log"
 
+      echo "==========================================" | tee -a "$main_log"
+      echo "Running experiment:" | tee -a "$main_log"
+      echo "  window_size=$window_size" | tee -a "$main_log"
+      echo "  contrastive_weight=$contrastive_weight" | tee -a "$main_log"
+      echo "  learning_rate=$learning_rate" | tee -a "$main_log"
+      echo "  log file: $exp_log" | tee -a "$main_log"
+      echo "==========================================" | tee -a "$main_log"
+
+      # 执行训练，同时输出到终端和日志文件
       python -u $run_path \
         --task_name long_term_forecast_contra \
         --is_training 1 \
@@ -88,12 +103,15 @@ for window_size in "${window_sizes[@]}"; do
         --window_size $window_size \
         --contrastive_weight $contrastive_weight \
         --learning_rate $learning_rate \
-        --train_epochs $train_epochs
+        --train_epochs $train_epochs 2>&1 | tee "$exp_log"
 
-      echo "Experiment completed!"
-      echo ""
+      echo "Experiment completed!" | tee -a "$main_log"
+      echo "" | tee -a "$main_log"
     done
   done
 done
 
-echo "All experiments completed!"
+echo "==========================================" | tee -a "$main_log"
+echo "All experiments completed!" | tee -a "$main_log"
+echo "Main log file: $main_log" | tee -a "$main_log"
+echo "Individual logs: $log_dir/*.log" | tee -a "$main_log"
