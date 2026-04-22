@@ -10,8 +10,8 @@ python -u $run_path \
   --task_name long_term_forecast \
   --is_training 1 \
   --root_path $root_path \
-  --data_path oregon_washington.csv \
-  --model_id oregon_washington_96_12 \
+  --data_path Northwest_Heatwave.csv \
+  --model_id Northwest_Heatwave_96_12 \
   --model $model_name \
   --data Northwest_Heatwave \
   --features M \
@@ -36,8 +36,8 @@ python -u $run_path \
   --task_name long_term_forecast \
   --is_training 1 \
   --root_path $root_path \
-  --data_path oregon_washington.csv \
-  --model_id oregon_washington_96_24 \
+  --data_path Northwest_Heatwave.csv \
+  --model_id Northwest_Heatwave_96_24 \
   --model $model_name \
   --data Northwest_Heatwave \
   --features M \
@@ -63,8 +63,8 @@ python -u $run_path \
   --task_name long_term_forecast \
   --is_training 1 \
   --root_path $root_path \
-  --data_path oregon_washington.csv \
-  --model_id oregon_washington_96_48 \
+  --data_path Northwest_Heatwave.csv \
+  --model_id Northwest_Heatwave_96_48 \
   --model $model_name \
   --data Northwest_Heatwave \
   --features M \
@@ -90,8 +90,8 @@ python -u $run_path \
   --task_name long_term_forecast \
   --is_training 1 \
   --root_path $root_path \
-  --data_path oregon_washington.csv \
-  --model_id oregon_washington_96_96 \
+  --data_path Northwest_Heatwave.csv \
+  --model_id Northwest_Heatwave_96_96 \
   --model $model_name \
   --data Northwest_Heatwave \
   --features M \

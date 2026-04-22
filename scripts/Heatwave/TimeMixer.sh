@@ -24,8 +24,8 @@ batch_size=16
 python -u $run_path \
   --task_name long_term_forecast \
   --is_training 1 \
-  --root_path  $root_path/\
-  --data_path Northwest_Heatwave.csv \
+  --root_path  $root_path\
+  --data_path  Northwest_Heatwave.csv\
   --model_id Northwest_Heatwave_96_12 \
   --model $model_name \
   --data Northwest_Heatwave \
@@ -55,7 +55,7 @@ python -u $run_path \
 python -u $run_path \
   --task_name long_term_forecast \
   --is_training 1 \
-  --root_path  $root_path/\
+  --root_path  $root_path\
   --data_path Northwest_Heatwave.csv \
   --model_id Northwest_Heatwave_96_24 \
   --model $model_name \
@@ -85,7 +85,7 @@ python -u $run_path \
 python -u $run_path \
   --task_name long_term_forecast \
   --is_training 1 \
-  --root_path  $root_path/\
+  --root_path  $root_path\
   --data_path Northwest_Heatwave.csv \
   --model_id Northwest_Heatwave_96_48 \
   --model $model_name \
@@ -114,7 +114,7 @@ python -u $run_path \
 python -u $run_path \
   --task_name long_term_forecast \
   --is_training 1 \
-  --root_path  $root_path/\
+  --root_path  $root_path\
   --data_path Northwest_Heatwave.csv \
   --model_id Northwest_Heatwave_96_96 \
   --model $model_name \

@@ -11,29 +11,29 @@ root_path="../../dataset/Northwest_Heatwave"
 
 # mse:0.09958842396736145, mae:0.20533674955368042
 
-# python -u $run_path \
-#         --task_name long_term_forecast_contra\
-#         --is_training 1 \
-#         --root_path $root_path/ \
-#         --data_path Northwest_Heatwave.csv \
-#         --model_id Northwest_Heatwave_96_12 \
-#         --model $model_name \
-#         --data Northwest_Heatwave \
-#         --features M \
-#         --seq_len 96 \
-#         --pred_len 12 \
-#         --e_layers 2 \
-#         --enc_in 70 \
-#         --dec_in 70 \
-#         --c_out 70\
-#         --des 'Exp' \
-#         --d_model 512 \
-#         --d_ff 512 \
-#         --batch_size 64\
-#         --itr 1 \
-#         --window_size 2 \
-#         --contrastive_weight 0.00005 \
-#         --learning_rate 0.0012
+ python -u $run_path \
+         --task_name long_term_forecast_contra\
+         --is_training 1 \
+         --root_path $root_path/ \
+         --data_path Northwest_Heatwave.csv \
+         --model_id Northwest_Heatwave_96_12 \
+         --model $model_name \
+         --data Northwest_Heatwave \
+         --features M \
+         --seq_len 96 \
+         --pred_len 12 \
+         --e_layers 2 \
+         --enc_in 70 \
+         --dec_in 70 \
+         --c_out 70\
+         --des 'Exp' \
+         --d_model 512 \
+         --d_ff 512 \
+         --batch_size 64\
+         --itr 1 \
+         --window_size 2 \
+         --contrastive_weight 0.00005 \
+         --learning_rate 0.0012
 
  
 
@@ -41,30 +41,29 @@ root_path="../../dataset/Northwest_Heatwave"
 # # window_size:3, contrastive_weight:0.005, learning_rate:5e-05, pred_len:24  
 # # mse:0.14712241291999817, mae:0.26059603691101074
 
-# python -u $run_path \
-#         --task_name long_term_forecast_contra\
-#         --is_training 1 \
-#         --root_path $root_path/ \
-#         --data_path Northwest_Heatwave.csv \
-#         --model_id Northwest_Heatwave_96_24 \
-#         --model $model_name \
-#         --data Northwest_Heatwave \
-#         --features M \
-#         --seq_len 96 \
-#         --pred_len 24 \
-#         --e_layers 2 \
-#         --enc_in 70 \
-#         --dec_in 70 \
-#         --c_out 70\
-#         --des 'Exp' \
-#         --d_model 512 \
-#         --d_ff 512 \
-#         --batch_size 64\
-#         --itr 1 \
-#         --window_size 10 \
-#         --contrastive_weight 0.01 \
-#         --learning_rate 0.0001
-
+ python -u $run_path \
+         --task_name long_term_forecast_contra\
+         --is_training 1 \
+         --root_path $root_path/ \
+         --data_path Northwest_Heatwave.csv \
+         --model_id Northwest_Heatwave_96_24 \
+         --model $model_name \
+         --data Northwest_Heatwave \
+         --features M \
+         --seq_len 96 \
+         --pred_len 24 \
+         --e_layers 2 \
+         --enc_in 70 \
+         --dec_in 70 \
+         --c_out 70\
+         --des 'Exp' \
+         --d_model 512 \
+         --d_ff 512 \
+         --batch_size 64\
+         --itr 1 \
+         --window_size 10 \
+         --contrastive_weight 0.01 \
+         --learning_rate 0.0001
 
 
 
@@ -101,29 +100,29 @@ python -u $run_path \
 # # 96 
 # # window_size:15, contrastive_weight:0.01, learning_rate:0.0003, pred_len:96  
 # # mse:0.4025304317474365, mae:0.4457913935184479
-# python -u $run_path \
-#         --task_name long_term_forecast_contra\
-#         --is_training 1 \
-#         --root_path $root_path/ \
-#         --data_path Northwest_Heatwave.csv \
-#         --model_id Northwest_Heatwave_96_96 \
-#         --model $model_name \
-#         --data Northwest_Heatwave \
-#         --features M \
-#         --seq_len 96 \
-#         --pred_len 96 \
-#         --e_layers 2 \
-#         --enc_in 70 \
-#         --dec_in 70 \
-#         --c_out 70\
-#         --des 'Exp' \
-#         --d_model 512 \
-#         --d_ff 512 \
-#         --batch_size 64\
-#         --itr 1 \
-#         --window_size 10 \
-#         --contrastive_weight 0.01 \
-#         --learning_rate 0.0001
+ python -u $run_path \
+         --task_name long_term_forecast_contra\
+         --is_training 1 \
+         --root_path $root_path/ \
+         --data_path Northwest_Heatwave.csv \
+         --model_id Northwest_Heatwave_96_96 \
+         --model $model_name \
+         --data Northwest_Heatwave \
+         --features M \
+         --seq_len 96 \
+         --pred_len 96 \
+         --e_layers 2 \
+         --enc_in 70 \
+         --dec_in 70 \
+         --c_out 70\
+         --des 'Exp' \
+         --d_model 512 \
+         --d_ff 512 \
+         --batch_size 64\
+         --itr 1 \
+         --window_size 10 \
+         --contrastive_weight 0.01 \
+         --learning_rate 0.0001
 
 
 # # # # # 超参数范围
