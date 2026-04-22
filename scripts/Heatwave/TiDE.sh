@@ -65,7 +65,7 @@ python -u $run_path \
   --task_name long_term_forecast \
   --is_training 1 \
   --root_path $root_path \
-  --data_path Northwest_Heatwave.csv \
+  --data_path ccccccccc \
   --model_id Northwest_Heatwave_96_48 \
   --model $model_name \
   --data Northwest_Heatwave \

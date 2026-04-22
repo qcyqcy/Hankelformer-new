@@ -21,7 +21,7 @@ patch_lens=(16 16 16 16)
 strides=(8 8 8 8)
 lradjs=(type3 type3 type3 type3)
 d_models=(128 256 128 128)
-patiences=(5 5 5 5)
+patiences=(3 3 3 3)
 
 
 # Loop over datasets and prediction lengths
@@ -29,7 +29,7 @@ for i in "${!pred_lens[@]}"; do
 	python -u $run_path \
 		--is_training 1\
 		--model $model_name \
-		--model_id Northwest_Heatwave_92_${pred_lens[$i]} \
+		--model_id Northwest_Heatwave_96_${pred_lens[$i]} \
 		--root_path $root_path\
 		--data_path Northwest_Heatwave.csv \
 		--task_name long_term_forecast \
