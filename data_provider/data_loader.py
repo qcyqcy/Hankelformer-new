@@ -520,6 +520,151 @@ class Dataset_Antarctic_Heat(Dataset):
 
 
 
+class Dataset_Bosphorus_Wind(Dataset):
+    """
+    伊斯坦布尔海峡 (Bosphorus) 风速预测数据集
+
+    数据划分（时间顺序划分，无数据泄露）：
+    - 训练集: 2016-01-01 ~ 2019-12-31 (4年)
+    - 验证集: 2020-01-01 ~ 2021-09-30 (1年10个月)
+    - 测试集: 2021-10-01 ~ 2021-12-31 (3个月，包含11月极端风速)
+
+    极端风速事件主要发生在秋季（9-11月），测试集可以评估模型在极端条件下的表现。
+    """
+    def __init__(self, args, root_path, flag='train', size=None,
+                 features='S', data_path='bosphorus_weather.csv',
+                 target='OT', scale=True, timeenc=0, freq='h', seasonal_patterns=None):
+
+        self.args = args
+
+        if size == None:
+            self.seq_len = 96
+            self.label_len = 48
+            self.pred_len = 96
+        else:
+            self.seq_len = size[0]
+            self.label_len = size[1]
+            self.pred_len = size[2]
+
+        assert flag in ['train', 'val', 'test']
+        self.flag = flag
+        self.features = features
+        self.target = target
+        self.scale = scale
+        self.timeenc = timeenc
+        self.freq = freq
+        self.root_path = root_path
+        self.data_path = data_path
+        self.__read_data__()
+
+    def __read_data__(self):
+        self.scaler = StandardScaler()
+        df_raw = pd.read_csv(os.path.join(self.root_path, self.data_path))
+        df_raw['date'] = pd.to_datetime(df_raw['date'])
+
+        # 数据划分时间边界
+        # 训练集: 2016-01-01 ~ 2019-12-31 (4年)
+        # 验证集: 2020-01-01 ~ 2021-09-30 (1年10个月)
+        # 测试集: 2021-10-01 ~ 2021-12-31 (3个月)
+        train_end_date = pd.to_datetime('2019-12-31 23:00:00')
+        val_start_date = pd.to_datetime('2020-01-01 00:00:00')
+        val_end_date = pd.to_datetime('2021-09-30 23:00:00')
+        test_start_date = pd.to_datetime('2021-10-01 00:00:00')
+        test_end_date = pd.to_datetime('2021-12-31 23:00:00')
+
+        # 选择特征列（多变量模式使用所有站点，单变量模式使用目标站点）
+        if self.features == 'M' or self.features == 'MS':
+            cols_data = df_raw.columns[1:]  # 排除 date 列
+            df_data = df_raw[cols_data]
+        elif self.features == 'S':
+            # 单变量模式：使用目标站点列
+            if self.target == 'OT':
+                # 默认使用第一个站点
+                cols_data = [df_raw.columns[1]]
+            else:
+                cols_data = [self.target]
+            df_data = df_raw[cols_data]
+
+        # 标准化处理 - 使用训练数据拟合
+        train_df = df_raw[df_raw['date'] <= train_end_date]
+        train_df_data = train_df[cols_data]
+
+        if self.scale:
+            self.scaler.fit(train_df_data.values)
+
+        # 根据 flag 划分数据
+        if self.flag == 'train':
+            subset = df_raw[df_raw['date'] <= train_end_date]
+
+        elif self.flag == 'val':
+            # 验证集需要额外的 seq_len 长度作为历史数据
+            val_main = df_raw[(df_raw['date'] >= val_start_date) &
+                             (df_raw['date'] <= val_end_date)]
+            history_start_date = val_start_date - pd.Timedelta(hours=self.seq_len)
+            history_data = df_raw[(df_raw['date'] >= history_start_date) &
+                                 (df_raw['date'] < val_start_date)]
+            subset = pd.concat([history_data, val_main])
+
+        elif self.flag == 'test':
+            # 测试集需要额外的 seq_len 长度作为历史数据
+            test_main = df_raw[(df_raw['date'] >= test_start_date) &
+                             (df_raw['date'] <= test_end_date)]
+            history_start_date = test_start_date - pd.Timedelta(hours=self.seq_len)
+            history_data = df_raw[(df_raw['date'] >= history_start_date) &
+                                (df_raw['date'] < test_start_date)]
+            subset = pd.concat([history_data, test_main])
+
+        # 重构特征数据
+        if self.features == 'M' or self.features == 'MS':
+            data_subset = subset[cols_data]
+        elif self.features == 'S':
+            data_subset = subset[cols_data]
+
+        # 标准化
+        if self.scale:
+            data = self.scaler.transform(data_subset.values)
+        else:
+            data = data_subset.values
+
+        # 时间特征处理
+        df_stamp = subset[['date']]
+        if self.timeenc == 0:
+            df_stamp['month'] = df_stamp.date.apply(lambda row: row.month, 1)
+            df_stamp['day'] = df_stamp.date.apply(lambda row: row.day, 1)
+            df_stamp['weekday'] = df_stamp.date.apply(lambda row: row.weekday(), 1)
+            df_stamp['hour'] = df_stamp.date.apply(lambda row: row.hour, 1)
+            data_stamp = df_stamp.drop(['date'], 1).values
+        elif self.timeenc == 1:
+            from utils.timefeatures import time_features
+            data_stamp = time_features(pd.to_datetime(df_stamp['date'].values), freq=self.freq)
+            data_stamp = data_stamp.transpose(1, 0)
+
+        # 设置数据
+        self.data_x = data
+        self.data_y = data
+        self.data_stamp = data_stamp
+
+    def __getitem__(self, index):
+        s_begin = index
+        s_end = s_begin + self.seq_len
+        r_begin = s_end - self.label_len
+        r_end = r_begin + self.label_len + self.pred_len
+
+        seq_x = self.data_x[s_begin:s_end]
+        seq_y = self.data_y[r_begin:r_end]
+        seq_x_mark = self.data_stamp[s_begin:s_end]
+        seq_y_mark = self.data_stamp[r_begin:r_end]
+
+        return seq_x, seq_y, seq_x_mark, seq_y_mark
+
+    def __len__(self):
+        return len(self.data_x) - self.seq_len - self.pred_len + 1
+
+    def inverse_transform(self, data):
+        return self.scaler.inverse_transform(data)
+
+
+
 class Dataset_PEMS(Dataset):
     def __init__(self, args,root_path, flag='train', size=None,
                  features='S', data_path='ETTh1.csv',

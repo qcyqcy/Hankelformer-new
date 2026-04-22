@@ -1,4 +1,4 @@
-from data_provider.data_loader import Dataset_Custom, Dataset_Texas_Freeze, Dataset_Northwest_Heatwave, Dataset_Antarctic_Heat, Dataset_PEMS
+from data_provider.data_loader import Dataset_Custom, Dataset_Texas_Freeze, Dataset_Northwest_Heatwave, Dataset_Antarctic_Heat, Dataset_Bosphorus_Wind, Dataset_PEMS
 from torch.utils.data import DataLoader
 import torch
 import numpy as np
@@ -19,6 +19,7 @@ data_dict = {
     'Texas_Freeze': Dataset_Texas_Freeze,
     'Northwest_Heatwave': Dataset_Northwest_Heatwave,
     'Antarctic_Heat': Dataset_Antarctic_Heat,
+    'Bosphorus_Wind': Dataset_Bosphorus_Wind,
     'PEMS': Dataset_PEMS,
 }
 
