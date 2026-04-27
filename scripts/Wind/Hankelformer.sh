@@ -28,7 +28,10 @@ python -u $run_path \
     --d_ff 512 \
     --batch_size 64 \
     --itr 1 \
-    --train_epochs 20
+    --train_epochs 20 \
+    --window_size 1 \
+    --contrastive_weight 0.00005 \
+    --learning_rate 0.0001
 
 
 # 24
@@ -52,7 +55,10 @@ python -u $run_path \
     --d_ff 512 \
     --batch_size 64 \
     --itr 1 \
-    --train_epochs 20
+    --train_epochs 20 \
+    --window_size 1 \
+    --contrastive_weight 0.00005 \
+    --learning_rate 0.0001
 
 
 # 48
@@ -76,7 +82,10 @@ python -u $run_path \
     --d_ff 512 \
     --batch_size 64 \
     --itr 1 \
-    --train_epochs 20
+    --train_epochs 20 \
+    --window_size 1 \
+    --contrastive_weight 0.00005 \
+    --learning_rate 0.0001
 
 
 # 96
@@ -100,4 +109,7 @@ python -u $run_path \
     --d_ff 512 \
     --batch_size 64 \
     --itr 1 \
-    --train_epochs 20
+    --train_epochs 20 \
+    --window_size 1 \
+    --contrastive_weight 0.00005 \
+    --learning_rate 0.0001

@@ -7,8 +7,7 @@ model_name=Hankelformer
 run_path="../../run.py"
 root_path="../../dataset/Antarctic_heat"
 
-# # 12
-
+# # # 12
 
 # python -u $run_path \
 #         --task_name long_term_forecast_contra\
@@ -30,17 +29,107 @@ root_path="../../dataset/Antarctic_heat"
 #         --d_ff 512 \
 #         --batch_size 64\
 #         --itr 1 \
-#         --window_size 2 \
-#         --contrastive_weight 0.00005 \
-#         --learning_rate 0.0012
+#         --window_size 3 \
+#         --contrastive_weight 0.0001 \
+#         --learning_rate 0.00015
+
+
+# # # 24
+
+# python -u $run_path \
+#         --task_name long_term_forecast_contra\
+#         --is_training 1 \
+#         --root_path $root_path/ \
+#         --data_path antarctic_weather.csv \
+#         --model_id Antarctic_heat_96_24 \
+#         --model $model_name \
+#         --data Antarctic_Heat \
+#         --features M \
+#         --seq_len 96 \
+#         --pred_len 24 \
+#         --e_layers 2 \
+#         --enc_in 22 \
+#         --dec_in 22 \
+#         --c_out 22\
+#         --des 'Exp' \
+#         --d_model 512 \
+#         --d_ff 512 \
+#         --batch_size 64\
+#         --itr 1 \
+#         --window_size 3 \
+#         --contrastive_weight 0.0001 \
+#         --learning_rate 0.00015
+
+
+
+# # # 48
+
+# python -u $run_path \
+#         --task_name long_term_forecast_contra\
+#         --is_training 1 \
+#         --root_path $root_path/ \
+#         --data_path antarctic_weather.csv \
+#         --model_id Antarctic_heat_96_48 \
+#         --model $model_name \
+#         --data Antarctic_Heat \
+#         --features M \
+#         --seq_len 96 \
+#         --pred_len 48 \
+#         --e_layers 2 \
+#         --enc_in 22 \
+#         --dec_in 22 \
+#         --c_out 22\
+#         --des 'Exp' \
+#         --d_model 512 \
+#         --d_ff 512 \
+#         --batch_size 64\
+#         --itr 1 \
+#         --window_size 3 \
+#         --contrastive_weight 0.0001 \
+#         --learning_rate 0.00015
+
+
+# # # 96
+
+# python -u $run_path \
+#         --task_name long_term_forecast_contra\
+#         --is_training 1 \
+#         --root_path $root_path/ \
+#         --data_path antarctic_weather.csv \
+#         --model_id Antarctic_heat_96_96 \
+#         --model $model_name \
+#         --data Antarctic_Heat \
+#         --features M \
+#         --seq_len 96 \
+#         --pred_len 96 \
+#         --e_layers 2 \
+#         --enc_in 22 \
+#         --dec_in 22 \
+#         --c_out 22\
+#         --des 'Exp' \
+#         --d_model 512 \
+#         --d_ff 512 \
+#         --batch_size 64\
+#         --itr 1 \
+#         --window_size 3 \
+#         --contrastive_weight 0.0001 \
+#         --learning_rate 0.00015
+
+
+
+
+
+
+
+
 
 
 
 # ==================== Antarctic_Heat 调参版本 ====================
 # 需要调优的参数范围
-window_sizes=(1 2 3 6 9 12 15 18 21 24)
-contrastive_weights=(0.00001 0.00005 0.0001 0.0005 0.001 0.005 0.01)
-learning_rates=(0.0001 0.0002 0.0005 0.001 0.0012 0.002)
+window_sizes=(2 3 4 5 6)
+contrastive_weights=(0.00003 0.00005 0.00007 0.0001)
+learning_rates=(0.00008 0.0001 0.00015 0.0002)
 
 # 固定参数
 seq_len=96

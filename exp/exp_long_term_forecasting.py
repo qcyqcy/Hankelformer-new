@@ -292,6 +292,15 @@ class Exp_Long_Term_Forecast(Exp_Basic):
 
         mae, mse, rmse, mape, mspe = metric(preds, trues)
         print('mse:{}, mae:{}, dtw:{}'.format(mse, mae, dtw))
+
+        # 统一结果文件：按数据集名汇总
+        result_file = f"{self.args.data}_all_results.txt"
+        result_line = f"[{self.args.data}] {self.args.model} | mse={mse}, mae={mae}, dtw={dtw}\n"
+
+        with open(result_file, 'a') as f:
+            f.write(result_line)
+
+        # 原有的详细setting_info仍保留在结果文件夹的log中
         file_name = f"{self.args.model_id}_result_long_term_forecast.txt"
         f = open(file_name, 'a')
         f.write(setting + "  \n")

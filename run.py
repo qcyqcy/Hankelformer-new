@@ -15,14 +15,8 @@ import numpy as np
 if __name__ == '__main__':
     fix_seed = 2023
     random.seed(fix_seed)
-    np.random.seed(fix_seed)
     torch.manual_seed(fix_seed)
-    torch.cuda.manual_seed(fix_seed)
-    torch.cuda.manual_seed_all(fix_seed)
-    torch.backends.cudnn.deterministic = True
-    torch.backends.cudnn.benchmark = False
-    # 强制所有操作使用确定性算法
-    torch.use_deterministic_algorithms(True, warn_only=True)
+    np.random.seed(fix_seed)
 
     parser = argparse.ArgumentParser(description='TimesNet')
 

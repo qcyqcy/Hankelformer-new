@@ -1,0 +1,55 @@
+[Antarctic_Heat] Hankelformer | ws=3, cw=0.0001, lr=0.00015 | mse=0.14738284051418304, mae=0.2631753981113434
+[Antarctic_Heat] Hankelformer | ws=3, cw=0.0001, lr=0.00015 | mse=0.2029566615819931, mae=0.3203961253166199
+[Antarctic_Heat] Hankelformer | ws=3, cw=5e-05, lr=0.0001 | mse=0.2643386721611023, mae=0.3763450086116791
+[Antarctic_Heat] Hankelformer | ws=3, cw=0.0001, lr=0.00015 | mse=0.31598272919654846, mae=0.41914892196655273
+
+
+
+[Antarctic_Heat] iTransformer | mse=0.15589232742786407, mae=0.26811957359313965, dtw=Not calculated
+[Antarctic_Heat] iTransformer | mse=0.21161170303821564, mae=0.32626205682754517, dtw=Not calculated
+[Antarctic_Heat] iTransformer | mse=0.27486348152160645, mae=0.3840230107307434, dtw=Not calculated
+[Antarctic_Heat] iTransformer | mse=0.34857723116874695, mae=0.44154876470565796, dtw=Not calculated
+
+
+[Antarctic_Heat] PatchTST | mse=0.16798906028270721, mae=0.27724209427833557, dtw=Not calculated
+[Antarctic_Heat] PatchTST | mse=0.22734753787517548, mae=0.3367507755756378, dtw=Not calculated
+[Antarctic_Heat] PatchTST | mse=0.28349027037620544, mae=0.3898524343967438, dtw=Not calculated
+[Antarctic_Heat] PatchTST | mse=0.32736149430274963, mae=0.4252774119377136, dtw=Not calculated
+
+
+
+[Antarctic_Heat] TiDE | mse=0.17571857571601868, mae=0.2806689143180847, dtw=Not calculated
+[Antarctic_Heat] TiDE | mse=0.23271171748638153, mae=0.3381231427192688, dtw=Not calculated
+[Antarctic_Heat] TiDE | mse=0.28864794969558716, mae=0.3911183476448059, dtw=Not calculated
+[Antarctic_Heat] TiDE | mse=0.3366990089416504, mae=0.4304980933666229, dtw=Not calculated
+
+
+
+[Antarctic_Heat] TimeMixer | mse=0.1613359898328781, mae=0.2711845636367798, dtw=Not calculated
+[Antarctic_Heat] TimeMixer | mse=0.22226564586162567, mae=0.33239349722862244, dtw=Not calculated
+[Antarctic_Heat] TimeMixer | mse=0.2791866064071655, mae=0.3873579204082489, dtw=Not calculated
+[Antarctic_Heat] TimeMixer | mse=0.3237813711166382, mae=0.4234403073787689, dtw=Not calculated
+
+
+[Antarctic_Heat] TimesNet | mse=0.17539221048355103, mae=0.2990787923336029, dtw=Not calculated
+[Antarctic_Heat] TimesNet | mse=0.22137056291103363, mae=0.3433385491371155, dtw=Not calculated
+[Antarctic_Heat] TimesNet | mse=0.2884993553161621, mae=0.39858463406562805, dtw=Not calculated
+[Antarctic_Heat] TimesNet | mse=0.32481762766838074, mae=0.42681780457496643, dtw=Not calculated
+
+[Antarctic_Heat] WPMixer | mse=0.168369323015213, mae=0.27650171518325806, dtw=Not calculated
+[Antarctic_Heat] WPMixer | mse=0.23382487893104553, mae=0.3415282666683197, dtw=Not calculated
+[Antarctic_Heat] WPMixer | mse=0.29013440012931824, mae=0.39385369420051575, dtw=Not calculated
+[Antarctic_Heat] WPMixer | mse=0.33107826113700867, mae=0.42798641324043274, dtw=Not calculated
+
+
+
+
+
+
+
+
+
+
+
+
+

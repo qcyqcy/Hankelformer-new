@@ -1,0 +1,27 @@
+[Northwest_Heatwave] TimesNet | mse=0.12058266997337341, mae=0.23757842183113098, dtw=Not calculated
+[Northwest_Heatwave] TimesNet | mse=0.17241981625556946, mae=0.28491759300231934, dtw=Not calculated
+[Northwest_Heatwave] TimesNet | mse=0.3163509666919708, mae=0.38614368438720703, dtw=Not calculated
+[Northwest_Heatwave] TimesNet | mse=0.6131449937820435, mae=0.5548794269561768, dtw=Not calculated
+[Northwest_Heatwave] Hankelformer | ws=2, cw=5e-05, lr=0.0012 | mse=0.09172970056533813, mae=0.19976045191287994
+[Northwest_Heatwave] Hankelformer | ws=10, cw=0.01, lr=0.0001 | mse=0.15770189464092255, mae=0.26954057812690735
+[Northwest_Heatwave] Hankelformer | ws=21, cw=0.01, lr=0.0005 | mse=0.2798151969909668, mae=0.35992738604545593
+[Northwest_Heatwave] Hankelformer | ws=10, cw=0.01, lr=0.0001 | mse=0.4294208586215973, mae=0.4537070095539093
+[Northwest_Heatwave] iTransformer | mse=0.10436855256557465, mae=0.21907085180282593, dtw=Not calculated
+[Northwest_Heatwave] iTransformer | mse=0.15789881348609924, mae=0.2707890570163727, dtw=Not calculated
+[Northwest_Heatwave] iTransformer | mse=0.2911689579486847, mae=0.37995341420173645, dtw=Not calculated
+[Northwest_Heatwave] iTransformer | mse=0.48602864146232605, mae=0.5018346905708313, dtw=Not calculated
+[Northwest_Heatwave] PatchTST | mse=0.1275624781847, mae=0.24620291590690613, dtw=Not calculated
+[Northwest_Heatwave] PatchTST | mse=0.19329386949539185, mae=0.30714502930641174, dtw=Not calculated
+[Northwest_Heatwave] PatchTST | mse=0.3212376534938812, mae=0.4013521075248718, dtw=Not calculated
+[Northwest_Heatwave] PatchTST | mse=0.44376322627067566, mae=0.4776410460472107, dtw=Not calculated
+[Northwest_Heatwave] TiDE | mse=0.1282709687948227, mae=0.2468697726726532, dtw=Not calculated
+[Northwest_Heatwave] TiDE | mse=0.1860155612230301, mae=0.30173754692077637, dtw=Not calculated
+[Northwest_Heatwave] TiDE | mse=0.45387768745422363, mae=0.4847062826156616, dtw=Not calculated
+[Northwest_Heatwave] TimeMixer | mse=0.11465844511985779, mae=0.22711814939975739, dtw=Not calculated
+[Northwest_Heatwave] TimeMixer | mse=0.18233942985534668, mae=0.28935256600379944, dtw=Not calculated
+[Northwest_Heatwave] TimeMixer | mse=0.3178052008152008, mae=0.3892125189304352, dtw=Not calculated
+[Northwest_Heatwave] TimeMixer | mse=0.42938247323036194, mae=0.4583768844604492, dtw=Not calculated
+[Northwest_Heatwave] WPMixer | mse=0.09895048290491104, mae=0.21772848069667816, dtw=Not calculated
+[Northwest_Heatwave] WPMixer | mse=0.14932619035243988, mae=0.27227839827537537, dtw=Not calculated
+[Northwest_Heatwave] WPMixer | mse=0.24120278656482697, mae=0.3526306450366974, dtw=Not calculated
+[Northwest_Heatwave] WPMixer | mse=0.4319717288017273, mae=0.47020789980888367, dtw=Not calculated

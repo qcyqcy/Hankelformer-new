@@ -1,0 +1,29 @@
+[Texas_Freeze] Hankelformer | ws=15, cw=0.005, lr=0.0005 | mse=0.09974483400583267, mae=0.21625709533691406
+[Texas_Freeze] Hankelformer | ws=5, cw=0.005, lr=0.0005 | mse=0.17972706258296967, mae=0.30387553572654724
+[Texas_Freeze] Hankelformer | ws=10, cw=0.01, lr=0.0003 | mse=0.3584798574447632, mae=0.43767091631889343
+[Texas_Freeze] Hankelformer | ws=20, cw=0.001, lr=0.0003 | mse=0.7280615568161011, mae=0.646634042263031
+[Texas_Freeze] TimesNet | mse=0.16315169632434845, mae=0.2798653542995453, dtw=Not calculated
+[Texas_Freeze] TimesNet | mse=0.22061631083488464, mae=0.33377954363822937, dtw=Not calculated
+[Texas_Freeze] TimesNet | mse=0.32997435331344604, mae=0.4318642020225525, dtw=Not calculated
+[Texas_Freeze] TimesNet | mse=0.6982789039611816, mae=0.6441392302513123, dtw=Not calculated
+[Texas_Freeze] Hankelformer | ws=15, cw=0.005, lr=0.0005 | mse=0.09974483400583267, mae=0.21625709533691406
+[Texas_Freeze] Hankelformer | ws=5, cw=0.005, lr=0.0005 | mse=0.17972706258296967, mae=0.30387553572654724
+[Texas_Freeze] Hankelformer | ws=10, cw=0.01, lr=0.0003 | mse=0.3584798574447632, mae=0.43767091631889343
+[Texas_Freeze] Hankelformer | ws=20, cw=0.001, lr=0.0003 | mse=0.7280615568161011, mae=0.646634042263031
+[Texas_Freeze] iTransformer | mse=0.5067155361175537, mae=0.5264649391174316, dtw=Not calculated
+[Texas_Freeze] PatchTST | mse=0.1555931121110916, mae=0.2755592167377472, dtw=Not calculated
+[Texas_Freeze] PatchTST | mse=0.2598978579044342, mae=0.3718436062335968, dtw=Not calculated
+[Texas_Freeze] PatchTST | mse=0.5040145516395569, mae=0.5320176482200623, dtw=Not calculated
+[Texas_Freeze] PatchTST | mse=0.9948335886001587, mae=0.7764691114425659, dtw=Not calculated
+[Texas_Freeze] TiDE | mse=0.1614769697189331, mae=0.280310720205307, dtw=Not calculated
+[Texas_Freeze] TiDE | mse=0.27446165680885315, mae=0.3820684254169464, dtw=Not calculated
+[Texas_Freeze] TiDE | mse=0.5356383323669434, mae=0.5503807663917542, dtw=Not calculated
+[Texas_Freeze] TiDE | mse=0.9936003088951111, mae=0.7755873203277588, dtw=Not calculated
+[Texas_Freeze] TimeMixer | mse=0.14135943353176117, mae=0.24874944984912872, dtw=Not calculated
+[Texas_Freeze] TimeMixer | mse=0.2528407573699951, mae=0.35305681824684143, dtw=Not calculated
+[Texas_Freeze] TimeMixer | mse=0.48310911655426025, mae=0.5131400227546692, dtw=Not calculated
+[Texas_Freeze] TimeMixer | mse=0.9202995896339417, mae=0.738602340221405, dtw=Not calculated
+[Texas_Freeze] WPMixer | mse=0.1443396508693695, mae=0.2545537054538727, dtw=Not calculated
+[Texas_Freeze] WPMixer | mse=0.2665311396121979, mae=0.37177515029907227, dtw=Not calculated
+[Texas_Freeze] WPMixer | mse=0.5453516840934753, mae=0.5514608025550842, dtw=Not calculated
+[Texas_Freeze] WPMixer | mse=0.6719238758087158, mae=0.6238041520118713, dtw=Not calculated

@@ -4,6 +4,7 @@
 /dataset/traffic/
 /dataset/WEATHER-5K/
 
+/scripts/Wind/
 *.zip
 __pycache__/
 *.pyc

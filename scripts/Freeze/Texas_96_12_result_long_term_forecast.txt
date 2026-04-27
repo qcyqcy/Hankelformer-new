@@ -1,0 +1,21 @@
+window_size:15, contrastive_weight:0.005, learning_rate:0.0005, pred_len:12  
+mse:0.09974483400583267, mae:0.21625709533691406
+
+long_term_forecast_Texas_96_12_TimesNet_Texas_Freeze_ftM_sl96_ll48_pl12_dm256_nh8_el2_dl1_df32_expand2_dc4_fc2_ebtimeF_dtTrue_Exp_0  
+mse:0.16315169632434845, mae:0.2798653542995453, dtw:Not calculated
+
+window_size:15, contrastive_weight:0.005, learning_rate:0.0005, pred_len:12  
+mse:0.09974483400583267, mae:0.21625709533691406
+
+long_term_forecast_Texas_96_12_PatchTST_Texas_Freeze_ftM_sl96_ll48_pl12_dm512_nh2_el1_dl1_df2048_expand2_dc4_fc3_ebtimeF_dtTrue_Exp_0  
+mse:0.1555931121110916, mae:0.2755592167377472, dtw:Not calculated
+
+long_term_forecast_Texas_96_12_TiDE_Texas_Freeze_ftM_sl96_ll48_pl12_dm256_nh8_el2_dl2_df256_expand2_dc4_fc1_ebtimeF_dtTrue_test_0  
+mse:0.1614769697189331, mae:0.280310720205307, dtw:Not calculated
+
+long_term_forecast_Texas_96_12_TimeMixer_Texas_Freeze_ftM_sl96_ll0_pl12_dm16_nh8_el2_dl1_df32_expand2_dc4_fc1_ebtimeF_dtTrue_Exp_0  
+mse:0.14135943353176117, mae:0.24874944984912872, dtw:Not calculated
+
+long_term_forecast_Texas_96_12_WPMixer_Texas_Freeze_ftM_sl96_ll48_pl12_dm128_nh8_el2_dl1_df2048_expand2_dc4_fc1_ebtimeF_dtTrue_test_0  
+mse:0.1443396508693695, mae:0.2545537054538727, dtw:Not calculated
+

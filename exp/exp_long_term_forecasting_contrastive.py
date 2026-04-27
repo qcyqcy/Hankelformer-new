@@ -289,29 +289,29 @@ class Exp_Long_Term_Forecast_contra(Exp_Basic):
                 inputs.append(input_data)  # 收集输入数据
                 
                 # 调参的时候不绘图
-                # # 处理每个批次中的样本
-                # batch_size = batch_x.shape[0]
+                # 处理每个批次中的样本
+                batch_size = batch_x.shape[0]
                 
-                # # 对批次中的每个样本单独考虑
-                # for j in range(batch_size):
-                #     sample_count += 1
-                #     # 每2个样本绘制一次图
-                #     if sample_count % 10 == 0:
-                #         input = batch_x.detach().cpu().numpy()
-                #         if test_data.scale and self.args.inverse:
-                #             shape = input.shape
-                #             input = test_data.inverse_transform(input.squeeze(0)).reshape(shape)
+                # 对批次中的每个样本单独考虑
+                for j in range(batch_size):
+                    sample_count += 1
+                    # 每2个样本绘制一次图
+                    if sample_count % 10 == 0:
+                        input = batch_x.detach().cpu().numpy()
+                        if test_data.scale and self.args.inverse:
+                            shape = input.shape
+                            input = test_data.inverse_transform(input.squeeze(0)).reshape(shape)
                         
-                #         # 获取历史数据长度（input的序列长度）
-                #         known_length = input.shape[1]
+                        # 获取历史数据长度（input的序列长度）
+                        known_length = input.shape[1]
                         
-                #         # 使用当前样本索引j来选择要绘制的样本
-                #         gt = np.concatenate((input[j, :, -1], true[j, :, -1]), axis=0)
-                #         pd = np.concatenate((input[j, :, -1], pred[j, :, -1]), axis=0)
+                        # 使用当前样本索引j来选择要绘制的样本
+                        gt = np.concatenate((input[j, :, -1], true[j, :, -1]), axis=0)
+                        pd = np.concatenate((input[j, :, -1], pred[j, :, -1]), axis=0)
                         
-                #         # 传递known_length参数以添加阴影
-                #         visual(gt, pd, os.path.join(folder_path, f"sample_{sample_count}.pdf"), 
-                #               known_length=known_length)
+                        # 传递known_length参数以添加阴影
+                        visual(gt, pd, os.path.join(folder_path, f"sample_{sample_count}.pdf"),
+                              known_length=known_length)
 
         preds = np.concatenate(preds, axis=0)
         trues = np.concatenate(trues, axis=0)
@@ -334,10 +334,17 @@ class Exp_Long_Term_Forecast_contra(Exp_Basic):
 
         mae, mse, rmse, mape, mspe = metric(preds, trues)
 
-        # 修改后的写入内容
-        setting_info = f"window_size:{self.args.window_size}, contrastive_weight:{self.args.contrastive_weight}, learning_rate:{self.args.learning_rate}, pred_len:{self.args.pred_len}"
-
         print('mse:{}, mae:{}'.format(mse, mae))
+
+        # 统一结果文件：按数据集名汇总
+        result_file = f"{self.args.data}_all_results.txt"
+        result_line = f"[{self.args.data}] {self.args.model} | ws={self.args.window_size}, cw={self.args.contrastive_weight}, lr={self.args.learning_rate} | mse={mse}, mae={mae}\n"
+
+        with open(result_file, 'a') as f:
+            f.write(result_line)
+
+        # 原有的详细setting_info仍保留在结果文件夹的log中
+        setting_info = f"window_size:{self.args.window_size}, contrastive_weight:{self.args.contrastive_weight}, learning_rate:{self.args.learning_rate}, pred_len:{self.args.pred_len}"
 
         # 确保将预测长度转换为字符串   还需要加上 数据集名称
         file_name = f"{self.args.model_id}_result_long_term_forecast.txt"

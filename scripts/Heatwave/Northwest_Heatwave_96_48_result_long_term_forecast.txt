@@ -1,0 +1,18 @@
+long_term_forecast_Northwest_Heatwave_96_48_TimesNet_Northwest_Heatwave_ftM_sl96_ll48_pl48_dm256_nh8_el2_dl1_df32_expand2_dc4_fc3_ebtimeF_dtTrue_Exp_0  
+mse:0.3163509666919708, mae:0.38614368438720703, dtw:Not calculated
+
+window_size:21, contrastive_weight:0.01, learning_rate:0.0005, pred_len:48  
+mse:0.2798151969909668, mae:0.35992738604545593
+
+long_term_forecast_Northwest_Heatwave_96_48_iTransformer_Northwest_Heatwave_ftM_sl96_ll48_pl48_dm512_nh8_el2_dl1_df512_expand2_dc4_fc1_ebtimeF_dtTrue_Exp_0  
+mse:0.2911689579486847, mae:0.37995341420173645, dtw:Not calculated
+
+long_term_forecast_Northwest_Heatwave_96_48_PatchTST_Northwest_Heatwave_ftM_sl96_ll48_pl48_dm512_nh2_el1_dl1_df2048_expand2_dc4_fc3_ebtimeF_dtTrue_Exp_0  
+mse:0.3212376534938812, mae:0.4013521075248718, dtw:Not calculated
+
+long_term_forecast_Northwest_Heatwave_96_48_TimeMixer_Northwest_Heatwave_ftM_sl96_ll0_pl48_dm16_nh8_el2_dl1_df32_expand2_dc4_fc1_ebtimeF_dtTrue_Exp_0  
+mse:0.3178052008152008, mae:0.3892125189304352, dtw:Not calculated
+
+long_term_forecast_Northwest_Heatwave_96_48_WPMixer_Northwest_Heatwave_ftM_sl96_ll48_pl48_dm128_nh8_el2_dl1_df2048_expand2_dc4_fc1_ebtimeF_dtTrue_test_0  
+mse:0.24120278656482697, mae:0.3526306450366974, dtw:Not calculated
+

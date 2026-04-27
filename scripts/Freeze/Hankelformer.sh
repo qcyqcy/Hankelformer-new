@@ -42,29 +42,29 @@ root_path="../../dataset/Texas_Freeze"
 # # # 24
 # # # window_size:5, contrastive_weight:0.005, learning_rate:0.0005, pred_len:24 
 
-# python -u $run_path \
-#   --task_name long_term_forecast_contra\
-#   --is_training 1 \
-#   --root_path $root_path/ \
-#   --data_path Texas_Freeze.csv \
-#   --model_id Texas_96_24 \
-#   --model $model_name \
-#   --data Texas_Freeze \
-#   --features M \
-#   --seq_len 96 \
-#   --pred_len 24 \
-#   --e_layers 2 \
-#   --enc_in 121 \
-#   --dec_in 121 \
-#   --c_out 121\
-#   --des 'Exp' \
-#   --d_model 512 \
-#   --d_ff 512 \
-#   --batch_size 64\
-#   --itr 1 \
-#   --window_size 5 \
-#   --contrastive_weight 0.005 \
-#   --learning_rate 0.0005
+python -u $run_path \
+  --task_name long_term_forecast_contra\
+  --is_training 1 \
+  --root_path $root_path/ \
+  --data_path Texas_Freeze.csv \
+  --model_id Texas_96_24 \
+  --model $model_name \
+  --data Texas_Freeze \
+  --features M \
+  --seq_len 96 \
+  --pred_len 24 \
+  --e_layers 2 \
+  --enc_in 121 \
+  --dec_in 121 \
+  --c_out 121\
+  --des 'Exp' \
+  --d_model 512 \
+  --d_ff 512 \
+  --batch_size 64\
+  --itr 1 \
+  --window_size 5 \
+  --contrastive_weight 0.005 \
+  --learning_rate 0.0005
 
 
 
@@ -73,59 +73,59 @@ root_path="../../dataset/Texas_Freeze"
 # 48 重新调
 # window_size:10, contrastive_weight:0.01, learning_rate:0.0003, pred_len:48  
 ## mse:0.3465724587440491, mae:0.43119242787361145
-#python -u $run_path \
-#  --task_name long_term_forecast_contra\
-#  --is_training 1 \
-#  --root_path $root_path/ \
-#  --data_path Texas_Freeze.csv \
-#  --model_id Texas_96_48 \
-#  --model $model_name \
-#  --data Texas_Freeze \
-#  --features M \
-#  --seq_len 96 \
-#  --pred_len 48 \
-#  --e_layers 2 \
-#  --enc_in 121 \
-#  --dec_in 121 \
-#  --c_out 121\
-#  --des 'Exp' \
-#  --d_model 512 \
-#  --d_ff 512 \
-#  --batch_size 64\
-#  --itr 1 \
-#  --window_size 10 \
-#  --contrastive_weight 0.01 \
-#  --learning_rate 0.0003
-#
+python -u $run_path \
+ --task_name long_term_forecast_contra\
+ --is_training 1 \
+ --root_path $root_path/ \
+ --data_path Texas_Freeze.csv \
+ --model_id Texas_96_48 \
+ --model $model_name \
+ --data Texas_Freeze \
+ --features M \
+ --seq_len 96 \
+ --pred_len 48 \
+ --e_layers 2 \
+ --enc_in 121 \
+ --dec_in 121 \
+ --c_out 121\
+ --des 'Exp' \
+ --d_model 512 \
+ --d_ff 512 \
+ --batch_size 64\
+ --itr 1 \
+ --window_size 10 \
+ --contrastive_weight 0.01 \
+ --learning_rate 0.0003
+
 
 
 # # 96 重新调
 # # 
 # # window_size:20, contrastive_weight:0.001, learning_rate:0.0003, pred_len:96  
 # # mse:0.6282870769500732, mae:0.6193678379058838
-# python -u $run_path \
-#   --task_name long_term_forecast_contra\
-#   --is_training 1 \
-#   --root_path $root_path/ \
-#   --data_path Texas_Freeze.csv \
-#   --model_id Texas_96_96 \
-#   --model $model_name \
-#   --data Texas_Freeze \
-#   --features M \
-#   --seq_len 96 \
-#   --pred_len 96 \
-#   --e_layers 2 \
-#   --enc_in 121 \
-#   --dec_in 121 \
-#   --c_out 121\
-#   --des 'Exp' \
-#   --d_model 512 \
-#   --d_ff 512 \
-#   --batch_size 64\
-#   --itr 1 \
-#   --window_size 20 \
-#   --contrastive_weight 0.001 \
-#   --learning_rate 0.0003
+python -u $run_path \
+  --task_name long_term_forecast_contra\
+  --is_training 1 \
+  --root_path $root_path/ \
+  --data_path Texas_Freeze.csv \
+  --model_id Texas_96_96 \
+  --model $model_name \
+  --data Texas_Freeze \
+  --features M \
+  --seq_len 96 \
+  --pred_len 96 \
+  --e_layers 2 \
+  --enc_in 121 \
+  --dec_in 121 \
+  --c_out 121\
+  --des 'Exp' \
+  --d_model 512 \
+  --d_ff 512 \
+  --batch_size 64\
+  --itr 1 \
+  --window_size 20 \
+  --contrastive_weight 0.001 \
+  --learning_rate 0.0003
 
 
 

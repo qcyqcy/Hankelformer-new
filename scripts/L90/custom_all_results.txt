@@ -1,0 +1,2 @@
+[custom] Hankelformer | ws=3, cw=0.375, lr=0.0014 | mse=0.365383118391037, mae=0.39286181330680847
+[custom] Hankelformer | ws=3, cw=0.375, lr=0.0014 | mse=0.365383118391037, mae=0.39286181330680847
